@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import navLogo from '../logo.svg'
+import styled from 'styled-components'
 
 export default class Navbar extends Component {
   render() {
@@ -17,12 +18,20 @@ export default class Navbar extends Component {
           </li>
         </ul>
         <Link to='/cart' className='ml-auto'>
-          <button>
-            <i className='fas fa-cart-plus' /> My Cart
-          </button>
+          <ButtonContainer>
+            <span className='mr-2'>
+              <i className='fas fa-cart-plus' /> My Cart
+            </span>
+          </ButtonContainer>
         </Link>
-
       </nav>
     )
   }
 }
+
+const ButtonContainer = styled.button`
+  text-transform: capitalize 
+  color: white
+  forn-size:1.4rem
+  background: transparent
+  border: 0.05rem solid var(--mainWhite)`
