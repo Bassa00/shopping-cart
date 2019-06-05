@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import navLogo from '../logo.svg'
+import {ButtonContainer} from './Button'
 import styled from 'styled-components'
 
 export default class Navbar extends Component {
   render() {
     return (
-      <nav 
+      <NavWrapper 
       className='navbar navbar-expand-sm navbar-dark bg-primary px-sm-5'>
-        {/** https://www.iconfinder.com/icons/1243689/call_phone_icon Creative Commons (Attribution 3.0 Unported); https://www.iconfinder.com/Makoto_msk */}
+        {/** https://www.iconfinder.com/icons/1243689/call_phone_icon Creative Commons */}
         <Link to='/'>
           <img src={navLogo} alt='store' className='navbar-brand' />
         </Link>
@@ -24,14 +25,16 @@ export default class Navbar extends Component {
             </span>
           </ButtonContainer>
         </Link>
-      </nav>
+      </NavWrapper>
     )
   }
 }
 
-const ButtonContainer = styled.button`
-  text-transform: capitalize 
-  color: white
-  forn-size:1.4rem
-  background: transparent
-  border: 0.05rem solid var(--mainWhite)`
+const NavWrapper = styled.nav `
+  background: var(--mainBlue) !important;
+  .nav-link{
+    text-transform: capitalized
+    color: var(--mainWhite) !important 
+    font-size: 1.3rem
+  }
+`
