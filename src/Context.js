@@ -1,25 +1,35 @@
 import React, { Component } from 'react'
 import { storeProducts, detailProduct } from './data';
 
-const productContext = React.createContext ();
-//provider  //consumer
+export const ProductContext = React.createContext ()
 
-const ProductConsumer = productContext.Consumer;
-
-export default class ProductProvider extends Component {
-
+//provider 
+export class ProductProvider extends Component {
   state ={
     products : storeProducts,
     detailProduct: detailProduct
   }
 
+  handleDetail = () => {
+    console.log('Hello from Product Details')
+  }
+
+  addToCart = () => {
+    console.log('Hello from Add To Cart')
+  } 
+
   render() {
     return (
-      <productContext.Provider value='test value'>
+      <ProductContext.Provider value={{
+        ...this.state,
+        handleDetail: this.handleDetail,
+        addToCart: this.addToCart
+        }}>
         {this.props.children}
-      </productContext.Provider>
+      </ProductContext.Provider>
     )
   }
 }
 
-export {ProductProvider, ProductConsumer}
+//consumer
+export const ProductConsumer = ProductContext.Consumer;
