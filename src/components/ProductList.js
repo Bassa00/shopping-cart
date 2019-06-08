@@ -17,15 +17,12 @@ export default class ProductList extends Component {
               <ProductConsumer>
                 {(value) => {
                   return (
-                    value.products.map(product => {
+                    value.products.map(_product => {
                       return (
-                        <React.Fragment key={product.id}>
-                          <h4 >{product.title} - </h4> 
-                          <h5>${product.price}</h5>
-                          <h6>{product.company}</h6>
-                          <p>{product.info}</p>
-                        </React.Fragment>
-                        
+                        <Product 
+                          key={_product.id} 
+                          product={_product}
+                        />
                       )
                     }) 
                   )
