@@ -1,7 +1,7 @@
 export const storeProducts = [
   {
     id: 1,
-    title: "Google Pixel - Black",
+    title: "Google Pixel",
     img: "https://www.fixez.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/8/-/8-bs-3747.png",
     price: 10,
     company: "GOOGLE",

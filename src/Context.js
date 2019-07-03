@@ -12,12 +12,29 @@ export class ProductProvider extends Component {
 
   handleDetail = () => {
     console.log('Hello from Product Details')
-  }
+   }
 
   addToCart = () => {
     console.log('Hello from Add To Cart')
   } 
 
+  /**  REFERENCE ISSUE: MANIPULATING REFERENCES INSTEAD DATA VALUE
+   * 
+   tester = () => {
+    console.log('State products:', this.state.products[0].inCart)
+    console.log('Data products: ', storeProducts[0].inCart)
+
+    const tempProducts = [...this.state.products]
+    tempProducts[0].inCart = true
+
+    this.setState (() => {
+      return{products: tempProducts}
+    }, () => {
+      console.log('State products:', this.state.products[0].inCart)
+      console.log('Data products: ', storeProducts[0].inCart)
+    })
+  } */
+  
   render() {
     return (
       <ProductContext.Provider value={{
@@ -25,7 +42,8 @@ export class ProductProvider extends Component {
         handleDetail: this.handleDetail,
         addToCart: this.addToCart
         }}>
-        {this.props.children}
+          {/** REFERENCE ISSUE: <button onClick={this.tester}>Tester method</button> */}
+          {this.props.children}
       </ProductContext.Provider>
     )
   }
