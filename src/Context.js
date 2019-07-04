@@ -10,6 +10,17 @@ export class ProductProvider extends Component {
     detailProduct: detailProduct
   }
 
+  setProducts = () => {
+    let tempProducts = []
+    storeProducts.forEach(item => {
+      const singleItem = {item}
+      tempProducts = [tempProducts, singleItem]
+    })
+    this.setState(() => {
+      return {products: tempProducts}
+    })
+  }
+
   handleDetail = () => {
     console.log('Hello from Product Details')
    }
@@ -19,7 +30,7 @@ export class ProductProvider extends Component {
   } 
 
   /**  REFERENCE ISSUE: MANIPULATING REFERENCES INSTEAD DATA VALUE
-   * 
+    
    tester = () => {
     console.log('State products:', this.state.products[0].inCart)
     console.log('Data products: ', storeProducts[0].inCart)
@@ -28,7 +39,7 @@ export class ProductProvider extends Component {
     tempProducts[0].inCart = true
 
     this.setState (() => {
-      return{products: tempProducts}
+      products: tempProducts
     }, () => {
       console.log('State products:', this.state.products[0].inCart)
       console.log('Data products: ', storeProducts[0].inCart)
