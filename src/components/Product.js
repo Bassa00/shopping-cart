@@ -48,7 +48,8 @@ export default class Product extends Component {
 }
 
 Product.propTypes = {
-//product is the property of Product element
+  //product is the property of Product element
+  
   product: PropTypes.shape({
     id: PropTypes.number,
     title: PropTypes.string,
