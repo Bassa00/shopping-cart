@@ -6,15 +6,19 @@ export const ProductContext = React.createContext ()
 //provider 
 export class ProductProvider extends Component {
   state ={
-    products : storeProducts,
+    products : [],
     detailProduct: detailProduct
+  }
+
+  componentDidMount() {
+    this.setProducts()
   }
 
   setProducts = () => {
     let tempProducts = []
     storeProducts.forEach(item => {
-      const singleItem = {item}
-      tempProducts = [tempProducts, singleItem]
+      const singleItem = {...item}
+      tempProducts = [...tempProducts, singleItem]
     })
     this.setState(() => {
       return {products: tempProducts}
@@ -29,7 +33,7 @@ export class ProductProvider extends Component {
     console.log('Hello from Add To Cart')
   } 
 
-  /**  REFERENCE ISSUE: MANIPULATING REFERENCES INSTEAD DATA VALUE
+  /** REFERENCE ISSUE: MANIPULATING REFERENCES INSTEAD DATA VALUE
     
    tester = () => {
     console.log('State products:', this.state.products[0].inCart)
