@@ -2,10 +2,10 @@ import styled from 'styled-components'
 
 export const ButtonContainer = styled.button`
   text-transform: capitalize 
-  color: white
+  color: lightBlue
   font-size:1.4rem
   background: transparent
-  border: 0.05rem solid white
+  border: 0.05rem solid blue 
   border-radius:0.5rem
   padding: 0.2rem 0.5rem
   cursor: pointer
@@ -17,4 +17,5 @@ export const ButtonContainer = styled.button`
   }
   &:focus{ 
     outline: none
+  }
   }`
