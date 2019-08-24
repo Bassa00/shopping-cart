@@ -8,7 +8,7 @@ import Details from './components/Details';
 import Cart from './components/Cart';
 import Default from './components/Default';
 
-function App() {
+function App() { 
   return (
     <React.Fragment>
       <Navbar />
@@ -17,7 +17,7 @@ function App() {
         <Route path='/details' component={Details} />
         <Route path='/cart' component={Cart} />
         <Route component={Default} />
-      </Switch>
+      </Switch>  
     </React.Fragment>
   );
 }

@@ -36,5 +36,6 @@ const NavWrapper = styled.nav `
     text-transform: capitalized
     color: var(--mainWhite) !important 
     font-size: 1.3rem
+    text-transform: capitalize
   }
 `
