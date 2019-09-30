@@ -7,6 +7,7 @@ export default class ProductList extends Component {
   // state = {
   //   product: storeProducts
   // }
+
   render() {
     return (
       <React.Fragment>
@@ -19,8 +20,8 @@ export default class ProductList extends Component {
                   return (
                     value.products.map(_product => {
                       return (
-                        <Product 
-                          key={_product.id} 
+                        <Product
+                          key={_product.id}
                           product={_product}
                         />
                       )
