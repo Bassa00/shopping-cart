@@ -25,7 +25,7 @@ export default class ProductList extends Component {
                           product={_product}
                         />
                       )
-                    }) 
+                    })
                   )
                 }}
               </ProductConsumer>

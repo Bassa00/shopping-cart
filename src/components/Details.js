@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {ProductConsumer} from '../Context'
 import {Link} from 'react-router-dom'
-import {ButtonContainer} from './Button'
+import {ButtonContainer} from '../styles/Button'
 
 export default class Details extends Component {
   render() {
@@ -22,7 +22,7 @@ export default class Details extends Component {
               <div className='row'>
                 {/**IMAGE */}
                 <div className='col-10 mx-auto col-md-6 my-3 text-capitalize'>
-                  <img src={img} className='img-fluid' alt='product' />
+                  <img src={img} className='img-flu' alt='product' />
 
                 </div>
                 {/**TEXT */}
@@ -47,7 +47,7 @@ export default class Details extends Component {
                     <Link to='/'>
                       <ButtonContainer>Back To Products</ButtonContainer>
                     </Link>
-                    <ButtonContainer disabled={inCart ? true : false}>
+                    <ButtonContainer cart disabled={inCart ? true : false} onClick={() => {value.addToCart(id)}}>
                       {inCart ? 'In Cart' : 'Add to Cart  '}
                     </ButtonContainer>
                   </div>

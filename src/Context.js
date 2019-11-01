@@ -10,15 +10,14 @@ export class ProductProvider extends Component {
     detailProduct: detailProduct
   }
 
-  componentDidMount() {
+  componentDidMount() { //2
     this.setProducts()
   }
-
   setProducts = () => {
-    let tempProducts = []
+    let tempProducts = [] //1
     storeProducts.forEach(item => {
       const singleItem = {...item}
-      tempProducts = [...tempProducts, singleItem]
+      tempProducts = [...tempProducts, singleItem] //1
     })
     this.setState(() => {
       return {products: tempProducts}
@@ -28,9 +27,8 @@ export class ProductProvider extends Component {
   handleDetail = () => {
     console.log('Hello from Product Details')
    }
-
-  addToCart = () => {
-    console.log('Hello from Add To Cart')
+  addToCart = (id) => {
+    console.log(`Hello from Add To Cart.id is ${id}`);
   } 
 
   /** REFERENCE ISSUE: MANIPULATING REFERENCES INSTEAD DATA VALUE
