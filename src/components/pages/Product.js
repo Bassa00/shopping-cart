@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import {ProductWrapper} from './styles/ProductWrapper';
+import {ProductWrapper} from '../styles/ProductWrapper';
 import { Link } from "react-router-dom";
-import { ProductConsumer } from "../Context";
+import { ProductConsumer } from "../subs/Context";
 import PropTypes from 'prop-types'
-
 export default class Product extends Component {
 	render() {
     	const {id, title, img, price, company, info, inCart } = this.props.product;

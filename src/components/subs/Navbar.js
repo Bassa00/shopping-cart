@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
-import navLogo from '../logo.svg'
+import navLogo from './logo.svg'
 import styled from 'styled-components'
-import {ButtonContainer} from './styles/Button'
+import {ButtonContainer} from '../styles/Button'
 
 export default class Navbar extends Component {
   render() {
