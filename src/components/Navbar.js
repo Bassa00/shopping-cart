@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import navLogo from '../logo.svg'
 import styled from 'styled-components'
-import {ButtonContainer} from '../styles/Button'
+import {ButtonContainer} from './styles/Button'
 
 export default class Navbar extends Component {
   render() {
@@ -15,7 +15,7 @@ export default class Navbar extends Component {
         </Link>
         <ul className='navbar-nav align-items-center'>
           <li className='nav-item ml-5'>
-            <Link to='/' className='nav-link'>Products</Link>
+            <Link to='/' className='nav-link'><b>Products</b></Link>
           </li>
         </ul>
         <Link to='/cart' className='ml-auto'>
@@ -31,7 +31,7 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav `
-background: var(--mainBlue);
+background: var(--lightBlue);
 .nav-link {
   color: var(--mainWhite) !important;
   font-size: 1.3rem; //1rem == 20px

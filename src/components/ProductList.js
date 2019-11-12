@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Title} from './Title'
+import { Title } from './Title'
 import Product from './Product'
 import { ProductConsumer } from '../Context';
 
@@ -32,7 +32,7 @@ export default class ProductList extends Component {
             </div>
           </div>
         </div>
-      </React.Fragment> 
+      </React.Fragment>
     )
   }
 }
