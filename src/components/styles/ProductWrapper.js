@@ -3,17 +3,17 @@ import styled from 'styled-components'
 export const ProductWrapper = styled.div`
   .card {
     border-color: transparent;
-    transition: all 1s linear;
+    transition: all 0.5s linear;
   }
   .card-footer {
     background: transparent;
     border-top: transparent;
-    transition: all 1s linear;
+    transition: all 0.5s linear;
   }
   &:hover {
     .card {
-      border:0.04rem solid rgba (0,0,0,0.2);
-      box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0,0,0,0.2); 
+      border: solid rgba(0,0,0,0.2);
+      box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0,0,0,0.5); 
     }
     .card-footer {
       background:  rgba(247,247,247);
@@ -34,7 +34,7 @@ export const ProductWrapper = styled.div`
     bottom: 0;
     right:0;
     padding: 0.2rem 0.4rem;
-    background: #585858;
+    background: #fdcf47;
     border: none;
     color: var(--mainWhite);
     font-size: 1.4rem;
@@ -46,7 +46,7 @@ export const ProductWrapper = styled.div`
     transform: translate(0,0);
   } 
   .cart-btn:hover {
-    color: #2ffd53;
+    color: #0d86d0;
     cursor: pointer;
   }
   `;

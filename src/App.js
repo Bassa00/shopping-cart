@@ -5,7 +5,7 @@ import { Switch, Route } from 'react-router-dom'
 import Navbar from './components/subs/Navbar';
 import ProductList from './components/pages/ProductList';
 import Details from './components/pages/Details';
-import Cart from './components/pages/Cart';
+import Cart from './components/pages/cart';
 import Default from './components/pages/Default';
 import Model from './components/subs/Model';
 
@@ -16,7 +16,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={ProductList} />
         <Route path='/details' component={Details} />
-        <Route path='/cart' component={Cart} />
+        <Route path='/pages/cart' component={Cart} />
         <Route component={Default} />
       </Switch>
       <Model/>
