@@ -31,7 +31,7 @@ export default class Details extends Component {
 								<div className="row">
 									{/**IMAGE */}
 									<div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
-										<img src={img} className="img-flu" alt="product" />
+										<img src={img} style={{width:'30rem', height:'30rem'}}className="img-flu" alt="product" />
 									</div>
 									{/**TEXT */}
 									<div className="col-10 mx-auto col-md-6 my-3 text-capitalize">

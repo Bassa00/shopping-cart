@@ -9,13 +9,13 @@ export default class Navbar extends Component {
     return (
       <NavWrapper 
       className='navbar navbar-expand-sm navbar-dark  px-sm-5'>
-        {/** https://www.iconfinder.com/icons/1243689/call_phone_icon Creative Commons */}
         <Link to='/'>
-          <img src={navLogo} alt='store' className='navbar-brand' />
+          <img src={navLogo} style={{width:'5rem', height:'5rem'}} alt='store' className='navbar-brand' />
+          
         </Link>
         <ul className='navbar-nav align-items-center'>
           <li className='nav-item ml-5'>
-            <Link to='/' className='nav-link'><b>Products</b></Link>
+            <Link to='/' className='nav-link'><b>KENTAURS</b></Link>
           </li>
         </ul>
         <Link to='../pages/cart' className='ml-auto'>
