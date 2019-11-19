@@ -19,19 +19,19 @@ export default class Model extends Component {
                             return <ModelContainer>
                                     <div className='container'>
                                         <div className='row'>
-                                            <div id="model" className='col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize p-5'>
-                                                <h5>Item added to the cart</h5>
+                                            <div id="model" className='col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize '>
+                                                <h5 className="text-center text-uppercase font-weight-bold">Item is added to the cart</h5>
                                                 <img src={img} style={{width:'20rem', height:'20rem'}} className="image-fluid" alt="product"></img>
                                                 <h5>{title}</h5>
                                                 <h5 className="text-muted">price: €{price}</h5>
                                                 <Link to='/'>
                                                     <ButtonContainer onClick={() => closeModel()}>
-                                                        Store
+                                                        Continue Shopping
                                                     </ButtonContainer>
                                                 </Link>
                                                 <Link to='../pages/cart'>
                                                     <ButtonContainer cart onClick={() => closeModel()}>
-                                                        Cart
+                                                        Go To Cart
                                                     </ButtonContainer>
                                                 </Link>
                                             </div> 
