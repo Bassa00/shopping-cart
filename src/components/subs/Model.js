@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import {ProductConsumer} from './Context'
 import {ButtonContainer} from '../styles/Button'
 import {Link} from 'react-router-dom'
-import { className } from 'postcss-selector-parser';
+
 
 export default class Model extends Component {
     render() {

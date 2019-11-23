@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {title, Title} from '../../subs/Title'
+import {Title} from '../../subs/Title'
 import CartColumns from './CartColumns'
 import EmptyCart from './EmptyCart'
 import {ProductConsumer} from '../../subs/Context'
