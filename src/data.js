@@ -2,7 +2,7 @@ export const storeProducts = [
 	{
 		id: 1,
 		title: "Intrepid Helmet",
-		img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ziyRKsSyRMCAV6nsTLEyowHaF6%26pid%3DApi&f=1",
+		img: "/Pictures/306760.png",
 		price: 10,
 		company: "Kentaurs",
 		info:
