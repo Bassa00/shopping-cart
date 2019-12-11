@@ -2,7 +2,7 @@ export const storeProducts = [
 	{
 		id: 1,
 		title: "Intrepid Helmet",
-		img: "./pictures/306760.png'",
+		img: require("./pictures/306760.png"),
 		price: 10,
 		company: "Kentaurs",
 		info:
