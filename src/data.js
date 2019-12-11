@@ -2,7 +2,7 @@ export const storeProducts = [
 	{
 		id: 1,
 		title: "Intrepid Helmet",
-		img: require("./pictures/306760.png"),
+		img: require("./pictures/991915.png"),
 		price: 10,
 		company: "Kentaurs",
 		info:
@@ -13,8 +13,8 @@ export const storeProducts = [
 	},
 	{
 		id: 2,
-		title: "Ladie's Top",
-		img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Z58PcH-pYA7d8yF0dKgEUwHaHa%26pid%3DApi&f=1",
+		title: "Women's Jacket",
+		img: require("./pictures/978472.png"),
 		price: 16,
 		company: "Kentaurs",
 		info:
@@ -26,7 +26,7 @@ export const storeProducts = [
 	{
 		id: 3,
 		title: "Body Protector",
-		img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.y06ww032NyHQcxR0vGx3pwHaHa%26pid%3DApi&f=1",
+		img: require("./pictures/991460.png"),
 		price: 8,
 		company: "Kentaurs",
 		info:
@@ -37,8 +37,8 @@ export const storeProducts = [
 	},
 	{
 		id: 4,
-		title: "Ladies Celine",
-		img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.sRaFOts06c2uyJo8oGD5TQHaHa%26pid%3DApi&f=1",
+		title: "Women's Celine",
+		img: require("./pictures/940000.png"),
 		price: 18,
 		company: "Kentaurs",
 		info:
@@ -49,8 +49,8 @@ export const storeProducts = [
 	},
 	{
 		id: 5,
-		title: "Horse Saddles",
-		img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FHTB1uKz8NFXXXXaqXVXXq6xXFXXXK%2FTextile-Halter-font-b-Horse-b-font-Riding-font-b-Horse-b-font-Cage-Sets-Malone.jpg&f=1&nofb=1",
+		title: "Rider's Glovers",
+		img: require("./pictures/930041.png"),
 		price: 24,
 		company: "Kentaurs",
 		info:
@@ -62,7 +62,7 @@ export const storeProducts = [
 	{
 		id: 6,
 		title: "Leather Equestrian ",
-		img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FHTB1VhrBeLal9eJjSZFzq6yITVXaH%2F4-PCS-Soft-PU-Leather-Horse-Riding-Equestrian-Equipment-Horse-racing-Legging-Protector-Exercise-boots-Equipment.jpg&f=1&nofb=1",
+		img: require("./pictures/988481.png"),
 		price: 17,
 		company: "Kentaurs",
 		info:
@@ -73,8 +73,8 @@ export const storeProducts = [
 	},
 	{
 		id: 7,
-		title: "Neck Cover",
-		img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.horseloverz.com%2F1810_neckcoverwithvelcro_1_web.jpg%3Fh%3D1000%26w%3D1000&f=1&nofb=1",
+		title: "Rider's Boots",
+		img: require("./pictures/913237.png"),
 		price: 30,
 		company: "Kentaurs",
 		info:
@@ -85,8 +85,8 @@ export const storeProducts = [
 	},
 	{
 		id: 8,
-		title: "Foot Supporters",
-		img: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.brendonsaddlery.co.uk%2Fitems%2Ftech-venice-safety-stirrups-31-L1.jpg&f=1&nofb=1",
+		title: "Women's Riding Tights",
+		img: require("./pictures/979840.png"),
 		price: 2,
 		company: "Kentaurs",
 		info:
@@ -100,7 +100,7 @@ export const storeProducts = [
 export const detailProduct = {
 	id: 1,
 	title: "Intrepid Helmet",
-	img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ziyRKsSyRMCAV6nsTLEyowHaF6%26pid%3DApi&f=1",
+	img: require("./pictures/991915.png"),
 	price: 10,
 	company: "Kentaurs",
 	info:
