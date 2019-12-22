@@ -10,6 +10,13 @@ import Default from './components/pages/Default';
 import Model from './components/subs/Model';
 import Souvenirs from './components/pages/Souvenirs';
 import Grooming from './components/pages/Grooming';
+import RKits from './components/pages/RKits'
+import RProtectors from './components/pages/RProtectors'
+import RAccessories from './components/pages/RAccessories'
+import HKits from './components/pages/HKits'
+import HProtectors from './components/pages/HProtectors'
+import HAccessories from './components/pages/HAccessories'
+
 
 function App() { 
   return (
@@ -18,8 +25,14 @@ function App() {
       <Switch>
         <Route exact path='/' component={ProductList} />
         <Route path='/details' component={Details} />
-        <Route path='/souvenirs' component={Souvenirs} />
-        <Route path='/grooming' component={Grooming} /> 
+        <Route path='/pages/RKits' component={RKits} />
+        <Route path='/pages/RProtectors' component={RProtectors} />
+        <Route path='/pages/RAccessories' component={RAccessories} />
+        <Route path='/pages/HKits' component={HKits} />
+        <Route path='/pages/HProtectors' component={HProtectors} />
+        <Route path='/pages/HAccessories' component={HAccessories} />
+        <Route path='/pages/souvenirs' component={Souvenirs} />
+        <Route path='/pages/grooming' component={Grooming} /> 
         <Route path='/pages/cart' component={Cart} />
         <Route component={Default} />
       </Switch>
