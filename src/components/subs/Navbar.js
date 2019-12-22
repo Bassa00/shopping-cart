@@ -13,7 +13,7 @@ import {
 export default class NavBar extends Component {
   render() {
     return (
-      <Navbar bg="primary" expand="lg" variant="light">
+      <Navbar bg="primary" expand="lg" variant="dark">
         <Link to="/">
           <img
             src={navLogo}
@@ -26,18 +26,22 @@ export default class NavBar extends Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+          <NavDropdown title="Rider" id="basic-nav-dropdown">
+              <NavDropdown.Item href="../pages/rider/Kits">Kits</NavDropdown.Item>
+              <NavDropdown.Item href="../pages/rider/Protectors">Body protectors</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+              <NavDropdown.Item href="../pages/rider/Accessories">Accessories</NavDropdown.Item>
+          </NavDropdown>
+
+            <NavDropdown title="Horse" id="basic-nav-dropdown">
+              <NavDropdown.Item href="../pages/horse/Kits">Kits</NavDropdown.Item>
+              <NavDropdown.Item href="../pages/horse/Protectors">Body protectors</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="../pages/horse/Accessories">Accessories</NavDropdown.Item>
             </NavDropdown>
+            
+            <Nav.Link href="../pages/Grooming">Grooming</Nav.Link>
+            <Nav.Link href="../pages/Souvenirs">Souvenirs</Nav.Link>
             <Nav.Link href="../pages/cart">My Cart</Nav.Link>
           </Nav>
           <Form inline>
