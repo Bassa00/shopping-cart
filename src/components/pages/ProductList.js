@@ -4,7 +4,8 @@ import Product from './Product'
 import { ProductConsumer } from '../subs/Context';
 import Slider from '../subs/Slider';
 import Welcome from '../subs/Welcome';
-import Cards from '../subs/Cards'
+import Cards from '../subs/Cards';
+import Footer from '../subs/Footer';
 
 export default class ProductList extends Component {
   // state = {
@@ -38,6 +39,7 @@ export default class ProductList extends Component {
             </div>
           </div>
         </div>
+        <Footer/>
       </React.Fragment>
     )
   }
