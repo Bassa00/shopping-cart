@@ -13,8 +13,9 @@ export default class Slider extends Component {
             alt="First slide"
           />
           <Carousel.Caption>
-          <h3 className="text-uppercase text-black-50 align-text-center" >First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h1 className="display-2">First slide label</h1>
+            <h3>Nulla vitae elit libero, a pharetra augue mollis interdum.</h3>
+            <button type="button" className="btn btn-outline-light btn-lg">Shop Now</button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -26,8 +27,9 @@ export default class Slider extends Component {
           />
 
           <Carousel.Caption>
-          <h3 className="text-uppercase text-black-50 align-text-center" >Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h1 className="display-2">Second slide label</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <button type="button" className="btn btn-outline-light btn-lg">Shop Now</button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -39,10 +41,11 @@ export default class Slider extends Component {
           />
 
           <Carousel.Caption>
-            <h3 className="text-uppercase text-black-50 align-text-center" >Third slide label</h3>
-            <p>
+          <h1 className="display-2">Third slide label</h1>
+            <h3>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            </h3>
+            <button type="button" className="btn btn-outline-light btn-lg">Shop Now</button>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -54,8 +57,9 @@ export default class Slider extends Component {
             alt="First slide"
           />
           <Carousel.Caption>
-          <h3 className="text-uppercase text-black-50 align-text-center" >Fourth slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h1 className="display-2">Fourth slide label</h1>
+            <h3>Nulla vitae elit libero, a pharetra augue mollis interdum.</h3>
+            <button type="button" className="btn btn-outline-light btn-lg">Shop Now</button>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
