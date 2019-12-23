@@ -15,7 +15,7 @@ export default class Cards extends Component {
                 </div>
         <CardColumns className="px-5 pt-4">
           <Card>
-            <Card.Img variant="top" src={require("../../pictures/306760.png")} />
+            <Card.Img variant="top" src={require("../../pictures/987010.png")} style={{height:'25rem', width:'25rem'}} />
             <Card.Body>
               <Card.Title>Card title that wraps to a new line</Card.Title>
               <Card.Text>
@@ -26,7 +26,7 @@ export default class Cards extends Component {
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img variant="top" src={require("../../pictures/306760.png")} />
+            <Card.Img variant="top" src={require("../../pictures/918131.png")} style={{height:'25rem', width:'25rem'}}/>
             <Card.Body>
               <Card.Title>Card title that wraps to a new line</Card.Title>
               <Card.Text>
@@ -37,7 +37,7 @@ export default class Cards extends Component {
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img variant="top" src={require("../../pictures/306760.png")} />
+            <Card.Img variant="top" src={require("../../pictures/979840(1).png")} style={{height:'25rem', width:'25rem'}}/>
             <Card.Body>
               <Card.Title>Card title that wraps to a new line</Card.Title>
               <Card.Text>
