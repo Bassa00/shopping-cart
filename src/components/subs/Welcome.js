@@ -9,9 +9,6 @@ export default class Welcome extends Component {
                     <div className="row welcome text-center">
                         <div className="col-12">
                             <Title name='' title='Kentaurs' />
-                        </div>
-                        <hr/>
-                        <div className="col-12">
                             <p className="lead">Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle.</p>
                         </div>
                     </div>
