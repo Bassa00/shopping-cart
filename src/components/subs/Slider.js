@@ -8,7 +8,7 @@ export default class Slider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={require("../../pictures/slider/christmas-4645449_1280.jpg")}
+            src={require("../../pictures/slider/horse-3168576_1280.jpg")}
             style={{height:'40rem'}}
             alt="First slide"
           />
@@ -20,7 +20,7 @@ export default class Slider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={require("../../pictures/slider/horse-4572080_1280.jpg")}
+            src={require("../../pictures/slider/seaside-1031450_1280.jpg")}
             style={{height:'40rem'}}
             alt="Third slide"
           />
@@ -43,6 +43,19 @@ export default class Slider extends Component {
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={require("../../pictures/slider/sunset-1722437_1280.jpg")}
+            style={{height:'40rem'}}
+            alt="First slide"
+          />
+          <Carousel.Caption>
+          <h3 className="text-uppercase text-black-50 align-text-center" >Fourth slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
