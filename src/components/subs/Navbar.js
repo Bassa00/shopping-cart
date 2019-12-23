@@ -17,7 +17,7 @@ export default class NavBar extends Component {
         <Link to="/">
           <img
             src={navLogo}
-            style={{ width: "5rem", height: "5rem" }}
+            style={{ width: "3rem", height: "3rem" }}
             alt="store"
             className="navbar-brand"
           />

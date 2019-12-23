@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Carousel} from "react-bootstrap";
 
 export default class Slider extends Component {
   render() {
@@ -7,35 +8,38 @@ export default class Slider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=First slide&bg=373940"
+            src={require("../../pictures/slider/christmas-4645449_1280.jpg")}
+            style={{height:'40rem'}}
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
+          <h3 className="text-uppercase text-black-50 align-text-center" >First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+            src={require("../../pictures/slider/horse-4572080_1280.jpg")}
+            style={{height:'40rem'}}
             alt="Third slide"
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
+          <h3 className="text-uppercase text-black-50 align-text-center" >Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+            src={require("../../pictures/slider/horse-4475581_1280.jpg")}
+            style={{height:'40rem'}}
             alt="Third slide"
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3 className="text-uppercase text-black-50 align-text-center" >Third slide label</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
