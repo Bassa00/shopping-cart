@@ -10,12 +10,13 @@ import Default from './components/pages/Default';
 import Model from './components/subs/Model';
 import Souvenirs from './components/pages/Souvenirs';
 import Grooming from './components/pages/Grooming';
-import RKits from './components/pages/RKits'
-import RProtectors from './components/pages/RProtectors'
-import RAccessories from './components/pages/RAccessories'
-import HKits from './components/pages/HKits'
-import HProtectors from './components/pages/HProtectors'
-import HAccessories from './components/pages/HAccessories'
+import RKits from './components/pages/RKits';
+import RProtectors from './components/pages/RProtectors';
+import RAccessories from './components/pages/RAccessories';
+import HKits from './components/pages/HKits';
+import HProtectors from './components/pages/HProtectors';
+import HAccessories from './components/pages/HAccessories';
+import Slider from './components/subs/Slider';
 
 
 function App() { 
@@ -36,7 +37,9 @@ function App() {
         <Route path='/pages/cart' component={Cart} />
         <Route component={Default} />
       </Switch>
+      <Slider/>
       <Model/>
+      
     </React.Fragment>
   );
 }
