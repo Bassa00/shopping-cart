@@ -4,6 +4,7 @@ import Product from './Product'
 import { ProductConsumer } from '../subs/Context';
 import Slider from '../subs/Slider';
 import Welcome from '../subs/Welcome';
+import Cards from '../subs/Cards'
 
 export default class ProductList extends Component {
   // state = {
@@ -15,6 +16,7 @@ export default class ProductList extends Component {
       <React.Fragment>
         <Slider/>
         <Welcome/>
+        <Cards/>
         <div className='my-0'>
           <div className='container'>
             <Title name='Our' title='products' />

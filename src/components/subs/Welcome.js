@@ -4,7 +4,7 @@ export default class Welcome extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="container-fluid padding">
+                <div className="container-fluid px-5 pt-4">
                     <div className="row welcome text-center">
                         <div className="col-12">
                             <h1 className="display-4">Kentaurs</h1>
