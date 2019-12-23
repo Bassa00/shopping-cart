@@ -42,9 +42,7 @@ export default class Slider extends Component {
 
           <Carousel.Caption>
           <h1 className="display-2">Third slide label</h1>
-            <h3>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </h3>
+            <h3 className="text-black-50">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h3>
             <button type="button" className="btn btn-outline-light btn-lg">Shop Now</button>
           </Carousel.Caption>
         </Carousel.Item>
