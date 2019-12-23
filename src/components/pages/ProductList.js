@@ -19,7 +19,7 @@ export default class ProductList extends Component {
         <Cards/>
         <div className='my-0'>
           <div className='container'>
-            <Title name='Our' title='products' />
+            <Title name='Top' title='Sellers' />
             <div className='row'>
               <ProductConsumer>
                 {(value) => {

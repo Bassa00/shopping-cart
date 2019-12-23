@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Title } from '../subs/Title'
 
 export default class Welcome extends Component {
     render() {
@@ -7,7 +8,7 @@ export default class Welcome extends Component {
                 <div className="container-fluid px-5 pt-4">
                     <div className="row welcome text-center">
                         <div className="col-12">
-                            <h1 className="display-4">Kentaurs</h1>
+                            <Title name='' title='Kentaurs' />
                         </div>
                         <hr/>
                         <div className="col-12">

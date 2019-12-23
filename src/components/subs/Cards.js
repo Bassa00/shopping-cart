@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Title } from '../subs/Title'
 import {CardColumns, Card, Image} from "react-bootstrap";
 
 export default class Cards extends Component {
@@ -9,7 +10,7 @@ export default class Cards extends Component {
           <div className="container-fluid padding">
                     <div className="row welcome text-center">
                         <div className="col-12">
-                            <h1 className="display-5 pt-4">Top Sellers</h1>
+                            <Title name='New' title='Products' />
                         </div>
                     </div>
                 </div>
