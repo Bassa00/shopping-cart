@@ -13,7 +13,7 @@ export default class Slider extends Component {
             alt="First slide"
           />
           <Carousel.Caption>
-          <h1 className="display-2">First slide label</h1>
+          <h1 className="display-4">First slide label</h1>
             <h3>Nulla vitae elit libero, a pharetra augue mollis interdum.</h3>
             <button type="button" className="btn btn-outline-light btn-lg">Shop Now</button>
           </Carousel.Caption>
@@ -27,7 +27,7 @@ export default class Slider extends Component {
           />
 
           <Carousel.Caption>
-          <h1 className="display-2">Second slide label</h1>
+          <h1 className="display-4">Second slide label</h1>
             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
             <button type="button" className="btn btn-outline-light btn-lg">Shop Now</button>
           </Carousel.Caption>
@@ -41,7 +41,7 @@ export default class Slider extends Component {
           />
 
           <Carousel.Caption>
-          <h1 className="display-2">Third slide label</h1>
+          <h1 className="display-4">Third slide label</h1>
             <h3 className="text-black-50">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h3>
             <button type="button" className="btn btn-outline-light btn-lg">Shop Now</button>
           </Carousel.Caption>
@@ -55,7 +55,7 @@ export default class Slider extends Component {
             alt="First slide"
           />
           <Carousel.Caption>
-          <h1 className="display-2">Fourth slide label</h1>
+          <h1 className="display-4">Fourth slide label</h1>
             <h3>Nulla vitae elit libero, a pharetra augue mollis interdum.</h3>
             <button type="button" className="btn btn-outline-light btn-lg">Shop Now</button>
           </Carousel.Caption>
