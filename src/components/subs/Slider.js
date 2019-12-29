@@ -4,7 +4,7 @@ import {Carousel} from "react-bootstrap";
 export default class Slider extends Component {
   render() {
     return (
-      <Carousel className="px-5 pt-4" >
+      <Carousel className="px-5 pt-5" >
         <Carousel.Item>
           <img
             className="d-block w-100"

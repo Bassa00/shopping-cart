@@ -13,7 +13,7 @@ import {
 export default class NavBar extends Component {
   render() {
     return (
-      <Navbar bg="primary" expand="lg" variant="dark">
+      <Navbar className="navbar navbar-expand-lg navbar-light main_box fixed-top" expand="lg" variant="dark" bg="dark">
         <Link to="/">
           <img
             src={navLogo}
@@ -72,7 +72,7 @@ export default class NavBar extends Component {
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-light">Search</Button>
+            <Button variant="outline-light"><i class="fas fa-search"></i></Button>
           </Form>
         </Navbar.Collapse>
       </Navbar>
