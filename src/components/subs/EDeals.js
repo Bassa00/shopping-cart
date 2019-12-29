@@ -46,7 +46,7 @@ export default class EDeals extends Component {
 												<h6>€ 150.00</h6>
 												<h6 className="l-through">€ 210.00</h6>
 											</div>
-											<h4>addidas New Hammer sole
+											<h4>KENTAURS New Hammer sole
 									for Sports person</h4>
 											<div className="add-bag d-flex align-items-center justify-content-center">
 												<a className="add-btn" href="/"><span className="ti-bag"></span></a>
@@ -62,7 +62,7 @@ export default class EDeals extends Component {
 												<h6>€ 150.00</h6>
 												<h6 className="l-through">€ 210.00</h6>
 											</div>
-											<h4>addidas New Hammer sole
+											<h4>KENTAURS New Hammer sole
 									for Sports person</h4>
 											<div className="add-bag d-flex align-items-center justify-content-center">
 												<a className="add-btn" href="/"><span className="ti-bag"></span></a>

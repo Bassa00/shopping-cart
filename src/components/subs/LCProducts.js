@@ -25,7 +25,7 @@ export default class LCProducts extends Component {
 									<div className="single-product">
 										<img className="img-fluid" src={require("../styles/img/product/p1.jpg")} alt="" />
 										<div className="product-details">
-											<h6>addidas New Hammer sole
+											<h6>KENTAURS New Hammer sole
 									for Sports person</h6>
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -58,7 +58,7 @@ export default class LCProducts extends Component {
 									<div className="single-product">
 										<img className="img-fluid" src={require("../styles/img/product/p2.jpg")} alt="" />
 										<div className="product-details">
-											<h6>addidas New Hammer sole
+											<h6>KENTAURS New Hammer sole
 									for Sports person</h6>
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -91,7 +91,7 @@ export default class LCProducts extends Component {
 									<div className="single-product">
 										<img className="img-fluid" src={require("../styles/img/product/p3.jpg")} alt="" />
 										<div className="product-details">
-											<h6>addidas New Hammer sole
+											<h6>KENTAURS New Hammer sole
 									for Sports person</h6>
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -123,7 +123,7 @@ export default class LCProducts extends Component {
 									<div className="single-product">
 										<img className="img-fluid" src={require("../styles/img/product/p4.jpg")} alt="" />
 										<div className="product-details">
-											<h6>addidas New Hammer sole
+											<h6>KENTAURS New Hammer sole
 									for Sports person</h6>
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -156,7 +156,7 @@ export default class LCProducts extends Component {
 									<div className="single-product">
 										<img className="img-fluid" src={require("../styles/img/product/p5.jpg")} alt="" />
 										<div className="product-details">
-											<h6>addidas New Hammer sole
+											<h6>KENTAURS New Hammer sole
 									for Sports person</h6>
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -189,7 +189,7 @@ export default class LCProducts extends Component {
 									<div className="single-product">
 										<img className="img-fluid" src={require("../styles/img/product/p6.jpg")} alt="" />
 										<div className="product-details">
-											<h6>addidas New Hammer sole
+											<h6>KENTAURS New Hammer sole
 									for Sports person</h6>
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -222,7 +222,7 @@ export default class LCProducts extends Component {
 									<div className="single-product">
 										<img className="img-fluid" src={require("../styles/img/product/p7.jpg")} alt="" />
 										<div className="product-details">
-											<h6>addidas New Hammer sole
+											<h6>KENTAURS New Hammer sole
 									for Sports person</h6>
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -255,7 +255,7 @@ export default class LCProducts extends Component {
 									<div className="single-product">
 										<img className="img-fluid" src={require("../styles/img/product/p8.jpg")} alt="" />
 										<div className="product-details">
-											<h6>addidas New Hammer sole
+											<h6>KENTAURS New Hammer sole
 									for Sports person</h6>
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -305,7 +305,7 @@ export default class LCProducts extends Component {
 									<div className="single-product">
 										<img className="img-fluid" src={require("../styles/img/product/p6.jpg")} alt="" />
 										<div className="product-details">
-											<h6>addidas New Hammer sole
+											<h6>KENTAURS New Hammer sole
 									for Sports person</h6>
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -338,7 +338,7 @@ export default class LCProducts extends Component {
 									<div className="single-product">
 										<img className="img-fluid" src={require("../styles/img/product/p8.jpg")} alt="" />
 										<div className="product-details">
-											<h6>addidas New Hammer sole
+											<h6>KENTAURS New Hammer sole
 									for Sports person</h6>
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -371,7 +371,7 @@ export default class LCProducts extends Component {
 									<div className="single-product">
 										<img className="img-fluid" src={require("../styles/img/product/p3.jpg")} alt="" />
 										<div className="product-details">
-											<h6>addidas New Hammer sole
+											<h6>KENTAURS New Hammer sole
 									for Sports person</h6>
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -404,7 +404,7 @@ export default class LCProducts extends Component {
 									<div className="single-product">
 										<img className="img-fluid" src={require("../styles/img/product/p5.jpg")} alt="" />
 										<div className="product-details">
-											<h6>addidas New Hammer sole
+											<h6>KENTAURS New Hammer sole
 									for Sports person</h6>
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -437,7 +437,7 @@ export default class LCProducts extends Component {
 									<div className="single-product">
 										<img className="img-fluid" src={require("../styles/img/product/p1.jpg")} alt="" />
 										<div className="product-details">
-											<h6>addidas New Hammer sole
+											<h6>KENTAURS New Hammer sole
 									for Sports person</h6>
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -470,7 +470,7 @@ export default class LCProducts extends Component {
 									<div className="single-product">
 										<img className="img-fluid" src={require("../styles/img/product/p4.jpg")} alt="" />
 										<div className="product-details">
-											<h6>addidas New Hammer sole
+											<h6>KENTAURS New Hammer sole
 									for Sports person</h6>
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -503,7 +503,7 @@ export default class LCProducts extends Component {
 									<div className="single-product">
 										<img className="img-fluid" src={require("../styles/img/product/p1.jpg")} alt="" />
 										<div className="product-details">
-											<h6>addidas New Hammer sole
+											<h6>KENTAURS New Hammer sole
 									for Sports person</h6>
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -536,7 +536,7 @@ export default class LCProducts extends Component {
 									<div className="single-product">
 										<img className="img-fluid" src={require("../styles/img/product/p8.jpg")} alt="" />
 										<div className="product-details">
-											<h6>addidas New Hammer sole
+											<h6>KENTAURS New Hammer sole
 									for Sports person</h6>
 											<div className="price">
 												<h6>€ 150.00</h6>
