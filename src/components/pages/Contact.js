@@ -1,20 +1,11 @@
 import React, { Component } from 'react';
 import { Form, Col, Button } from 'react-bootstrap';
-import '../styles/css/linearicons.css';
-import '../styles/css/owl.carousel.css';
-import '../styles/css/themify-icons.css';
-import '../styles/css/font-awesome.min.css';
-import '../styles/css/nice-select.css';
-import '../styles/css/nouislider.min.css';
-import '../styles/css/bootstrap.css';
-import '../styles/css/main.css';
 
 export default class Contact extends Component {
     render() {
         return (
             <React.Fragment>
-                <h1>test</h1>
-                {/*<!-- Start Banner Area --> */}
+{/*<!-- Start Banner Area --> */}
                 <section className="banner-area organic-breadcrumb">
                     <div className="container">
                         <div className="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
@@ -28,8 +19,7 @@ export default class Contact extends Component {
                         </div>
                     </div>
                 </section>
-
-                {/* <!--================Contact Area =================--> */}
+{/* <!--================Contact Area =================--> */}
                 <section className="contact_area section_gap_bottom">
                     <div className="container">
                         <div className="row">
@@ -42,28 +32,27 @@ export default class Contact extends Component {
                                     </div>
                                     <div className="info_item">
                                         <i className="lnr lnr-phone-handset"></i>
-                                        <h6><a href="#">(+371) 1231 2312</a></h6>
+                                        <h6><a href="/">(+371) 1231 2312</a></h6>
                                         <p>Mon to Fri 9am to 6 pm</p>
                                     </div>
                                     <div className="info_item">
                                         <i className="lnr lnr-envelope"></i>
-                                        <h6><a href="#">support@colorlib.com</a></h6>
+                                        <h6><a href="/">support@kentaurs.com</a></h6>
                                         <p>Send us your query anytime!</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-9">
                                 <Form className="row contact_form" action="POST" netlify-honeypot="bot-field" data-netlify="true" id="contact_form" >
-                                    <div className="col-md-6">
+                                    <div className="col-md-12">
                                         <Form.Row>
+                                            <Form.Group as={Col} controlId="formGridName">
+                                                <Form.Label>Name</Form.Label>
+                                                <Form.Control placeholder="Your Name" />
+                                            </Form.Group>
                                             <Form.Group as={Col} controlId="formGridEmail">
                                                 <Form.Label>Email</Form.Label>
                                                 <Form.Control type="email" placeholder="Enter email" />
-                                            </Form.Group>
-
-                                            <Form.Group as={Col} controlId="formGridPassword">
-                                                <Form.Label>Password</Form.Label>
-                                                <Form.Control type="password" placeholder="Password" />
                                             </Form.Group>
                                         </Form.Row>
 

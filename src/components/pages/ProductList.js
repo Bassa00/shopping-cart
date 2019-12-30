@@ -9,18 +9,7 @@ import EDeals from '../subs/EDeals';
 import Brands from '../subs/Brands';
 import DofWeek from '../subs/DofWeek';
 import Footer from '../subs/Footer';
-import '../styles/css/linearicons.css';
-import '../styles/css/linearicons.css';
-import '../styles/css/font-awesome.min.css';
-import '../styles/css/themify-icons.css';
-import '../styles/css/bootstrap.css';
-import '../styles/css/owl.carousel.css';
-import '../styles/css/nice-select.css';
-import '../styles/css/nouislider.min.css';
-import '../styles/css/ion.rangeSlider.css';
-import '../styles/css/ion.rangeSlider.skinFlat.css';
-import '../styles/css/magnific-popup.css';
-import '../styles/css/main.css';
+
 
 export default class ProductList extends Component {
 	// state = {
