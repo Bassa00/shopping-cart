@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Form, Col, Button } from 'react-bootstrap';
 import '../styles/css/linearicons.css';
 import '../styles/css/owl.carousel.css';
 import '../styles/css/themify-icons.css';
@@ -13,7 +14,7 @@ export default class Contact extends Component {
         return (
             <React.Fragment>
                 <h1>test</h1>
-                        {/*<!-- Start Banner Area --> */}
+                {/*<!-- Start Banner Area --> */}
                 <section className="banner-area organic-breadcrumb">
                     <div className="container">
                         <div className="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
@@ -28,7 +29,7 @@ export default class Contact extends Component {
                     </div>
                 </section>
 
-{/* <!--================Contact Area =================--> */}
+                {/* <!--================Contact Area =================--> */}
                 <section className="contact_area section_gap_bottom">
                     <div className="container">
                         <div className="row">
@@ -52,35 +53,62 @@ export default class Contact extends Component {
                                 </div>
                             </div>
                             <div className="col-lg-9">
-                                <form className="row contact_form" action="POST" netlify-honeypot="bot-field" data-netlify="true" id="contactForm" >
+                                <Form className="row contact_form" action="POST" netlify-honeypot="bot-field" data-netlify="true" >
                                     <div className="col-md-6">
-                                        <div className="form-group">
-                                            <input type="text" className="form-control" id="name" name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" />
-							            </div>
-                                        <div className="form-group">
-                                            <input type="email" className="form-control" id="email" name="email" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" />
-							            </div>
-                                        <div className="form-group">
-                                            <input type="text" className="form-control" id="subject" name="subject" placeholder="Enter Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" />
-							            </div>
+                                        <Form.Row>
+                                            <Form.Group as={Col} controlId="formGridEmail">
+                                                <Form.Label>Email</Form.Label>
+                                                <Form.Control type="email" placeholder="Enter email" />
+                                            </Form.Group>
+
+                                            <Form.Group as={Col} controlId="formGridPassword">
+                                                <Form.Label>Password</Form.Label>
+                                                <Form.Control type="password" placeholder="Password" />
+                                            </Form.Group>
+                                        </Form.Row>
+
+                                        <Form.Group controlId="formGridAddress1">
+                                            <Form.Label>Address</Form.Label>
+                                            <Form.Control placeholder="1234 Main St" />
+                                        </Form.Group>
+
+                                        <Form.Group controlId="formGridAddress2">
+                                            <Form.Label>Address 2</Form.Label>
+                                            <Form.Control placeholder="Apartment, studio, or floor" />
+                                        </Form.Group>
+
+                                        <Form.Row>
+                                            <Form.Group as={Col} controlId="formGridCity">
+                                                <Form.Label>City</Form.Label>
+                                                <Form.Control />
+                                            </Form.Group>
+
+                                            <Form.Group as={Col} controlId="formGridState">
+                                                <Form.Label>Country</Form.Label>
+                                                <Form.Control/>
+                                            </Form.Group>
+
+                                            <Form.Group as={Col} controlId="formGridZip">
+                                                <Form.Label>Zip</Form.Label>
+                                                <Form.Control />
+                                            </Form.Group>
+                                        </Form.Row>
+
+                                        <Form.Group id="formGridTextarea">
+                                            <Form.Label>Mesaage</Form.Label>
+                                            <Form.Control as="textarea" rows="3" placeholder="Your Message"/>
+                                        </Form.Group>
+
+                                        <Button variant="primary" type="submit">
+                                            Submit
+                                            </Button>
                                     </div>
-                                    <div className="col-md-6">
-                                        <div className="form-group">
-                                            <textarea className="form-control" name="message" id="message" rows="1" placeholder="Enter Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'"></textarea>
-                                        </div>
-                                    </div>
-                                    <div className="field">
-                                        <div data-netlify-recaptcha= "true"></div>
-                                     </div>   
-                                    <div className="col-md-12 text-right">
-                                        <button type="submit" value="submit" className="primary-btn">Send Message</button>
-                                    </div>
-					            </form>
+                                </Form>
                             </div>
                         </div>
-		            </div>
-	            </section>
+                    </div>
+                </section>
             </React.Fragment>
-                                )
-                            }
-                        }
+        )
+    }
+}
