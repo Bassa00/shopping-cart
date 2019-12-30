@@ -10,6 +10,7 @@ import Default from './components/pages/Default';
 import Model from './components/subs/Model';
 import Souvenirs from './components/pages/Souvenirs';
 import Grooming from './components/pages/Grooming';
+import Contact from './components/pages/Contact';
 import RKits from './components/pages/RKits';
 import RProtectors from './components/pages/RProtectors';
 import RAccessories from './components/pages/RAccessories';
@@ -30,9 +31,10 @@ function App() {
         <Route path='/pages/HKits' component={HKits} />
         <Route path='/pages/HProtectors' component={HProtectors} />
         <Route path='/pages/HAccessories' component={HAccessories} />
-        <Route path='/pages/souvenirs' component={Souvenirs} />
-        <Route path='/pages/grooming' component={Grooming} /> 
-        <Route path='/pages/cart' component={Cart} />
+        <Route path='/pages/Souvenirs' component={Souvenirs} />
+        <Route path='/pages/Grooming' component={Grooming} />
+        <Route path='/pages/Contact' component={Contact} />
+        <Route path='/pages/cart' component={Cart} />  
         <Route component={Default} />
       </Switch>
       <Model/>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Title } from '../subs/Title'
 import Product from './Product'
 import { ProductConsumer } from '../subs/Context';
 import Slider from '../subs/Slider';

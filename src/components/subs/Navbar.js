@@ -28,23 +28,23 @@ export default class NavBar extends Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-          <NavDropdown title="Rider" id="basic-nav-dropdown">
-            
-            <Link to="../pages/RKits">
-              <NavDropdown.Item href="../pages/RKits">Kits</NavDropdown.Item>
-            </Link>
+            <NavDropdown title="Rider" id="basic-nav-dropdown">
 
-            <Link to="../pages/RProtectors">
-              <NavDropdown.Item href="../pages/RProtectors">Body protectors</NavDropdown.Item>
-            </Link>
+              <Link to="../pages/RKits">
+                <NavDropdown.Item href="../pages/RKits">Kits</NavDropdown.Item>
+              </Link>
 
-            <NavDropdown.Divider />
+              <Link to="../pages/RProtectors">
+                <NavDropdown.Item href="../pages/RProtectors">Body protectors</NavDropdown.Item>
+              </Link>
 
-            <Link to="../pages/RAccessories">
-              <NavDropdown.Item href="../pages/RAccessories">Accessories</NavDropdown.Item>
-            </Link>
+              <NavDropdown.Divider />
 
-          </NavDropdown>
+              <Link to="../pages/RAccessories">
+                <NavDropdown.Item href="../pages/RAccessories">Accessories</NavDropdown.Item>
+              </Link>
+
+            </NavDropdown>
 
             <NavDropdown title="Horse" id="basic-nav-dropdown">
               <Link to="../pages/HKits">
@@ -61,14 +61,21 @@ export default class NavBar extends Component {
                 <NavDropdown.Item href="../pages/HAccessories">Accessories</NavDropdown.Item>
               </Link>
             </NavDropdown>
-            
-            <Link to="../pages/Grooming"><Nav.Link href="../pages/Grooming">Grooming</Nav.Link></Link>
-            <Link to="../pages/Souvenirs"><Nav.Link href="../pages/Souvenirs">Souvenirs</Nav.Link></Link>
-            
+
+            <Link to="../pages/Grooming">
+              <Nav.Link href="../pages/Grooming">Grooming</Nav.Link>
+            </Link>
+            <Link to="../pages/Souvenirs">
+              <Nav.Link href="../pages/Souvenirs">Souvenirs</Nav.Link>
+            </Link>
+            <Link to="../pages/Souvenirs">
+              <Nav.Link href="../pages/Contact">Contact</Nav.Link>
+            </Link>
+
             <Link to="../pages/cart">
               <Nav.Link href="../pages/cart">My Cart</Nav.Link>
             </Link>
-            
+
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
