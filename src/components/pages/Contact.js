@@ -53,7 +53,7 @@ export default class Contact extends Component {
                                 </div>
                             </div>
                             <div className="col-lg-9">
-                                <Form className="row contact_form" action="POST" netlify-honeypot="bot-field" data-netlify="true" >
+                                <Form className="row contact_form" action="POST" netlify-honeypot="bot-field" data-netlify="true" id="contact_form" >
                                     <div className="col-md-6">
                                         <Form.Row>
                                             <Form.Group as={Col} controlId="formGridEmail">
