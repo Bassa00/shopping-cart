@@ -68,7 +68,7 @@ export default class NavBar extends Component {
             <Link to="../pages/Souvenirs">
               <Nav.Link href="../pages/Souvenirs">Souvenirs</Nav.Link>
             </Link>
-            <Link to="../pages/Souvenirs">
+            <Link to="../pages/Contact">
               <Nav.Link href="../pages/Contact">Contact</Nav.Link>
             </Link>
 
