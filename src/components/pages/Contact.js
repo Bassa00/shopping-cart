@@ -27,8 +27,8 @@ export default class Contact extends Component {
                                 <div className="contact_info">
                                     <div className="info_item">
                                         <i className="lnr lnr-home"></i>
-                                        <h6>Raiņa iela 27</h6>
-                                        <p>Liepāja, LV-3401</p>
+                                        <h6>AAA street 27</h6>
+                                        <p>AAAAAAA Country</p>
                                     </div>
                                     <div className="info_item">
                                         <i className="lnr lnr-phone-handset"></i>
