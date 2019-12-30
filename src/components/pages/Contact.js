@@ -20,7 +20,7 @@ export default class Contact extends Component {
                     </div>
                 </section>
 {/* <!--================Contact Area =================--> */}
-                <section className="contact_area section_gap_bottom">
+                <section className="contact_area section_gap_bottom pt-5">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-3">
