@@ -70,7 +70,7 @@ export default class Contact extends Component {
                                         </div>
                                     </div>
                                     <div className="field">
-                                        <div data-netlify-recaptcha="true"></div>
+                                        <div data-netlify-recaptcha= "true"></div>
                                      </div>   
                                     <div className="col-md-12 text-right">
                                         <button type="submit" value="submit" className="primary-btn">Send Message</button>
