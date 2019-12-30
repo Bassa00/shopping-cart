@@ -52,7 +52,7 @@ export default class Contact extends Component {
                                 </div>
                             </div>
                             <div className="col-lg-9">
-                                <form className="row contact_form" method="POST" netlify-honeypot="bot-field" data-netlify="true" id="contactForm" novalidate="novalidate">
+                                <form className="row contact_form" action="POST" netlify-honeypot="bot-field" data-netlify="true" id="contactForm" >
                                     <div className="col-md-6">
                                         <div className="form-group">
                                             <input type="text" className="form-control" id="name" name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" />
