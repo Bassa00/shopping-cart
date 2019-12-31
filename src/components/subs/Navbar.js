@@ -73,7 +73,7 @@ export default class NavBar extends Component {
             </Link>
 
             <Link to="../pages/cart">
-              <Nav.Link href="../pages/cart">My Cart</Nav.Link>
+              <Nav.Link href="../pages/cart"><i class="fas fa-shopping-cart"></i></Nav.Link>
             </Link>
 
           </Nav>

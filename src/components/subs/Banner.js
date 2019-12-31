@@ -1,9 +1,8 @@
 import React from 'react'
 
-export const Banner = ({pageName, linkName}) => {
-        return (
-            <React.Fragment>
-            {/*<!-- Start Banner Area --> */}
+export const Banner = ({ pageName, linkName }) => {
+    return (
+        <React.Fragment>
             <section className="banner-area organic-breadcrumb">
                 <div className="container">
                     <div className="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
@@ -18,5 +17,5 @@ export const Banner = ({pageName, linkName}) => {
                 </div>
             </section>
         </React.Fragment>
-        )
+    )
 }

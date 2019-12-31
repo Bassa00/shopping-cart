@@ -1,25 +1,15 @@
 import React, { Component } from 'react';
+import { Banner } from '../subs/Banner';
+
 import { Form, Col, Button } from 'react-bootstrap';
 
 export default class Contact extends Component {
     render() {
         return (
             <React.Fragment>
-{/*<!-- Start Banner Area --> */}
-                <section className="banner-area organic-breadcrumb">
-                    <div className="container">
-                        <div className="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
-                            <div className="col-first">
-                                <h1>Contact Us</h1>
-                                <nav className="d-flex align-items-center">
-                                    <a href="index.html">Home<span className="lnr lnr-arrow-right"></span></a>
-                                    <a href="category.html">Contact</a>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-{/* <!--================Contact Area =================--> */}
+               
+                <Banner pageName='Contact' linkName='Contact' />
+
                 <section className="contact_area section_gap_bottom pt-5">
                     <div className="container">
                         <div className="row">
@@ -74,7 +64,7 @@ export default class Contact extends Component {
 
                                             <Form.Group as={Col} controlId="formGridState">
                                                 <Form.Label>Country</Form.Label>
-                                                <Form.Control/>
+                                                <Form.Control />
                                             </Form.Group>
 
                                             <Form.Group as={Col} controlId="formGridZip">
@@ -85,7 +75,7 @@ export default class Contact extends Component {
 
                                         <Form.Group id="formGridTextarea">
                                             <Form.Label>Mesaage</Form.Label>
-                                            <Form.Control as="textarea" rows="3" placeholder="Your Message"/>
+                                            <Form.Control as="textarea" rows="3" placeholder="Your Message" />
                                         </Form.Group>
 
                                         <Button variant="primary" type="submit">

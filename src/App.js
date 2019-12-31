@@ -1,19 +1,4 @@
 import React from 'react';
-import './App.css';
-import '../src/components/styles/css/linearicons.css';
-import '../src/components/styles/css/linearicons.css';
-import '../src/components/styles/css/font-awesome.min.css';
-import '../src/components/styles/css/themify-icons.css';
-import '../src/components/styles/css/bootstrap.css';
-import '../src/components/styles/css/owl.carousel.css';
-import '../src/components/styles/css/nice-select.css';
-import '../src/components/styles/css/nouislider.min.css';
-import '../src/components/styles/css/ion.rangeSlider.css';
-import '../src/components/styles/css/ion.rangeSlider.skinFlat.css';
-import '../src/components/styles/css/magnific-popup.css';
-import '../src/components/styles/css/main.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 import { Switch, Route } from 'react-router-dom';
 import NavBar from './components/subs/Navbar';
 import ProductList from './components/pages/ProductList';

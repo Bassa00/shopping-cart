@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Product from './Product'
+import Product from './Product';
 import { ProductConsumer } from '../subs/Context';
 import Slider from '../subs/Slider';
 import Features from '../subs/Features';
