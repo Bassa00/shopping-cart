@@ -71,13 +71,11 @@ export default class NavBar extends Component {
             <Link to="../pages/Contact">
               <Nav.Link href="../pages/Contact">Contact</Nav.Link>
             </Link>
-
+          </Nav>
+          <Form inline>
             <Link to="../pages/cart">
               <Nav.Link href="../pages/cart"><i class="fas fa-shopping-cart"></i></Nav.Link>
             </Link>
-
-          </Nav>
-          <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
             <Button variant="outline-light"><i class="fas fa-search"></i></Button>
           </Form>
