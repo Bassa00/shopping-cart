@@ -4,11 +4,11 @@ export default class Footer extends Component {
     render() {
         return (
             <React.Fragment>
-                <footer class="footer-area section_gap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3  col-md-6 col-sm-6">
-					<div class="single-footer-widget">
+                <footer className="footer-area section_gap">
+		<div className="container">
+			<div className="row">
+				<div className="col-lg-3  col-md-6 col-sm-6">
+					<div className="single-footer-widget">
 						<h6>About Us</h6>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore
@@ -16,38 +16,38 @@ export default class Footer extends Component {
 						</p>
 					</div>
 				</div>
-				<div class="col-lg-4  col-md-6 col-sm-6">
-					<div class="single-footer-widget">
+				<div className="col-lg-4  col-md-6 col-sm-6">
+					<div className="single-footer-widget">
 						<h6>Newsletter</h6>
 						<p>Stay update with our latest</p>
-						<div class="" id="mc_embed_signup">
+						<div className="" id="mc_embed_signup">
 {/* 
 							<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-							 method="get" class="form-inline">
+							 method="get" className="form-inline">
 
-								<div class="d-flex flex-row">
-									<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email" />
+								<div className="d-flex flex-row">
+									<input className="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email" />
 
-									<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+									<button className="click-btn btn btn-default"><i className="fa fa-long-arrow-right" aria-hidden="true"></i></button>
 									<div style="position: absolute; left: -5000px;">
 										<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text" />
 									</div>
 
-									<div class="col-lg-4 col-md-4">
-										<button class="bb-btn btn">
-											<span class="lnr lnr-arrow-right"></span>
+									<div className="col-lg-4 col-md-4">
+										<button className="bb-btn btn">
+											<span className="lnr lnr-arrow-right"></span>
 										</button>
 									</div>
 								</div>
-								<div class="info"></div>
+								<div className="info"></div>
 							</form> */}
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3  col-md-6 col-sm-6">
-					<div class="single-footer-widget mail-chimp">
-						<h6 class="mb-20">Instragram Feed</h6>
-						<ul class="instafeed d-flex flex-wrap">
+				<div className="col-lg-3  col-md-6 col-sm-6">
+					<div className="single-footer-widget mail-chimp">
+						<h6 className="mb-20">Instragram Feed</h6>
+						<ul className="instafeed d-flex flex-wrap">
 							<li><img src={require("../styles/img/i1.jpg")} alt="" /></li>
 							<li><img src={require("../styles/img/i2.jpg")} alt="" /></li>
 							<li><img src={require("../styles/img/i3.jpg")} alt="" /></li>
@@ -59,23 +59,23 @@ export default class Footer extends Component {
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-2 col-md-6 col-sm-6">
-					<div class="single-footer-widget">
+				<div className="col-lg-2 col-md-6 col-sm-6">
+					<div className="single-footer-widget">
 						<h6>Follow Us</h6>
 						<p>Let us be social</p>
-						<div class="footer-social d-flex align-items-center">
-							<a href="/"><i class="fa fa-facebook"></i></a>
-							<a href="/"><i class="fa fa-twitter"></i></a>
-							<a href="/"><i class="fa fa-dribbble"></i></a>
-							<a href="/"><i class="fa fa-behance"></i></a>
+						<div className="footer-social d-flex align-items-center">
+							<a href="/"><i className="fa fa-facebook"></i></a>
+							<a href="/"><i className="fa fa-twitter"></i></a>
+							<a href="/"><i className="fa fa-dribbble"></i></a>
+							<a href="/"><i className="fa fa-behance"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
-			{/* <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
-				<p class="footer-text m-0">
+			{/* <div className="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
+				<p className="footer-text m-0">
 {/**Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. 
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 
 {/**Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
 				</p>

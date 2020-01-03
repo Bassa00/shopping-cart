@@ -4,7 +4,7 @@ export default class Brands extends Component {
     render() {
         return (
             <React.Fragment>
-                <section class="brand-area section_gap">
+                <section className="brand-area section_gap">
 					<div className="container">
 						<div className="row">
 							<a className="col single-img" href="/">

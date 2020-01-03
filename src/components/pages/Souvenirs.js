@@ -7,7 +7,7 @@ export default class Souvenirs extends Component {
     render() {
         return (
             <React.Fragment>
-                <Banner pageName='Souvenirs' linkName='Souvenirs' />
+                <Banner pageName='Gift' linkName='Vouchers' />
 
                 <section className="category-area mt-5">
 					<div className='my-0'>

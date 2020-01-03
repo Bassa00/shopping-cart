@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
 export default class LCProducts extends Component {
-    render() {
-        return (
-            <React.Fragment>
-                <section className="active-product-area section_gap">
+	render() {
+		return (
+			<React.Fragment>
+				<section className="active-product-area section_gap">
 					{/**single product slide */}
 					<div className="single-product-slider">
 						<div className="container">
@@ -12,563 +12,54 @@ export default class LCProducts extends Component {
 								<div className="col-lg-6 text-center">
 									<div className="div-title">
 										<h1>Latest Products</h1>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-											dolore
-											magna aliqua.
-							</p>
 									</div>
 								</div>
 							</div>
 							<div className="row">
 								{/**single product */}
-								<div className="col-lg-3 col-md-6">
-									<div className="single-product">
-										<img className="img-fluid" src={require("../styles/img/product/p1.jpg")} alt="" />
-										<div className="product-details">
-											<h6>KENTAURS New Hammer sole
-									for Sports person</h6>
-											<div className="price">
-												<h6>€ 150.00</h6>
-												<h6 className="l-through">€ 210.00</h6>
-											</div>
-											<div className="prd-bottom">
-
-												<a href="/" className="social-info">
-													<span className="ti-bag"></span>
-													<p className="hover-text">add to bag</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-heart"></span>
-													<p className="hover-text">Wishlist</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-sync"></span>
-													<p className="hover-text">compare</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-move"></span>
-													<p className="hover-text">view more</p>
-												</a>
-											</div>
+								<div className="card-deck">
+									<div className="card">
+										<img src={require("../../pictures/womensBreeches.jpg")} className="card-img-top" alt="Women's Breeches" />
+										<div className="card-body">
+											<h5 className="card-title text-center">Women's Breeches</h5>
+										</div>
+										<div className="card-footer">
+											<button type="button" class="btn btn-light">Shop Now</button>
+										</div>
+									</div>
+									<div className="card">
+										<img src={require("../../pictures/ridingFootwear.jpg")} className="card-img-top" alt="Riding Footwear" />
+										<div className="card-body">
+											<h5 className="card-title text-center">Riding Footwear</h5>
+										</div>
+										<div className="card-footer">
+											<button type="button" class="btn btn-light">Shop Now</button>
+										</div>
+									</div>
+									<div className="card">
+										<img src={require("../../pictures/ridingGloves.jpg")} className="card-img-top" alt="Riding Gloves" />
+										<div className="card-body">
+											<h5 className="card-title text-center">Riding Gloves</h5>
+										</div>
+										<div className="card-footer">
+											<button type="btn btn-outline-light btn-lg" class="btn btn-light">Shop Now
+												</button>
 										</div>
 									</div>
 								</div>
-								{/**single product */}
-								<div className="col-lg-3 col-md-6">
-									<div className="single-product">
-										<img className="img-fluid" src={require("../styles/img/product/p2.jpg")} alt="" />
-										<div className="product-details">
-											<h6>KENTAURS New Hammer sole
-									for Sports person</h6>
-											<div className="price">
-												<h6>€ 150.00</h6>
-												<h6 className="l-through">€ 210.00</h6>
-											</div>
-											<div className="prd-bottom">
-
-												<a href="/" className="social-info">
-													<span className="ti-bag"></span>
-													<p className="hover-text">add to bag</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-heart"></span>
-													<p className="hover-text">Wishlist</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-sync"></span>
-													<p className="hover-text">compare</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-move"></span>
-													<p className="hover-text">view more</p>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className="col-lg-3 col-md-6">
-									<div className="single-product">
-										<img className="img-fluid" src={require("../styles/img/product/p3.jpg")} alt="" />
-										<div className="product-details">
-											<h6>KENTAURS New Hammer sole
-									for Sports person</h6>
-											<div className="price">
-												<h6>€ 150.00</h6>
-												<h6 className="l-through">€ 210.00</h6>
-											</div>
-											<div className="prd-bottom">
-												<a href="/" className="social-info">
-													<span className="ti-bag"></span>
-													<p className="hover-text">add to bag</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-heart"></span>
-													<p className="hover-text">Wishlist</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-sync"></span>
-													<p className="hover-text">compare</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-move"></span>
-													<p className="hover-text">view more</p>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className="col-lg-3 col-md-6">
-									<div className="single-product">
-										<img className="img-fluid" src={require("../styles/img/product/p4.jpg")} alt="" />
-										<div className="product-details">
-											<h6>KENTAURS New Hammer sole
-									for Sports person</h6>
-											<div className="price">
-												<h6>€ 150.00</h6>
-												<h6 className="l-through">€ 210.00</h6>
-											</div>
-											<div className="prd-bottom">
-
-												<a href="/" className="social-info">
-													<span className="ti-bag"></span>
-													<p className="hover-text">add to bag</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-heart"></span>
-													<p className="hover-text">Wishlist</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-sync"></span>
-													<p className="hover-text">compare</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-move"></span>
-													<p className="hover-text">view more</p>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className="col-lg-3 col-md-6">
-									<div className="single-product">
-										<img className="img-fluid" src={require("../styles/img/product/p5.jpg")} alt="" />
-										<div className="product-details">
-											<h6>KENTAURS New Hammer sole
-									for Sports person</h6>
-											<div className="price">
-												<h6>€ 150.00</h6>
-												<h6 className="l-through">€ 210.00</h6>
-											</div>
-											<div className="prd-bottom">
-
-												<a href="/" className="social-info">
-													<span className="ti-bag"></span>
-													<p className="hover-text">add to bag</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-heart"></span>
-													<p className="hover-text">Wishlist</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-sync"></span>
-													<p className="hover-text">compare</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-move"></span>
-													<p className="hover-text">view more</p>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className="col-lg-3 col-md-6">
-									<div className="single-product">
-										<img className="img-fluid" src={require("../styles/img/product/p6.jpg")} alt="" />
-										<div className="product-details">
-											<h6>KENTAURS New Hammer sole
-									for Sports person</h6>
-											<div className="price">
-												<h6>€ 150.00</h6>
-												<h6 className="l-through">€ 210.00</h6>
-											</div>
-											<div className="prd-bottom">
-
-												<a href="/" className="social-info">
-													<span className="ti-bag"></span>
-													<p className="hover-text">add to bag</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-heart"></span>
-													<p className="hover-text">Wishlist</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-sync"></span>
-													<p className="hover-text">compare</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-move"></span>
-													<p className="hover-text">view more</p>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className="col-lg-3 col-md-6">
-									<div className="single-product">
-										<img className="img-fluid" src={require("../styles/img/product/p7.jpg")} alt="" />
-										<div className="product-details">
-											<h6>KENTAURS New Hammer sole
-									for Sports person</h6>
-											<div className="price">
-												<h6>€ 150.00</h6>
-												<h6 className="l-through">€ 210.00</h6>
-											</div>
-											<div className="prd-bottom">
-
-												<a href="/" className="social-info">
-													<span className="ti-bag"></span>
-													<p className="hover-text">add to bag</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-heart"></span>
-													<p className="hover-text">Wishlist</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-sync"></span>
-													<p className="hover-text">compare</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-move"></span>
-													<p className="hover-text">view more</p>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className="col-lg-3 col-md-6">
-									<div className="single-product">
-										<img className="img-fluid" src={require("../styles/img/product/p8.jpg")} alt="" />
-										<div className="product-details">
-											<h6>KENTAURS New Hammer sole
-									for Sports person</h6>
-											<div className="price">
-												<h6>€ 150.00</h6>
-												<h6 className="l-through">€ 210.00</h6>
-											</div>
-											<div className="prd-bottom">
-
-												<a href="/" className="social-info">
-													<span className="ti-bag"></span>
-													<p className="hover-text">add to bag</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-heart"></span>
-													<p className="hover-text">Wishlist</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-sync"></span>
-													<p className="hover-text">compare</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-move"></span>
-													<p className="hover-text">view more</p>
-												</a>
-											</div>
+							</div>
+							<div className="row my-5">
+								<div className="card bg-dark text-white border border-light">
+									<img src={require("../../pictures/banner/oneHorseSnow.jpg")} className="card-img" alt="..." style={{height:'25rem'}} />
+										<div className="card-img-overlay align-content-center">
+											<p className="display-4 display-flex text-white bg-secondary text-center" style={{opacity: '0.8'}}>Autumn / Winter Collection</p>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					{/**single product slide  */}
-					<div className="single-product-slider">
-						<div className="container">
-							<div className="row justify-content-center">
-								<div className="col-lg-6 text-center">
-									<div className="div-title">
-										<h1>Coming Products</h1>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-											dolore
-								magna aliqua.</p>
-									</div>
-								</div>
-							</div>
-							<div className="row">
-
-								<div className="col-lg-3 col-md-6">
-									<div className="single-product">
-										<img className="img-fluid" src={require("../styles/img/product/p6.jpg")} alt="" />
-										<div className="product-details">
-											<h6>KENTAURS New Hammer sole
-									for Sports person</h6>
-											<div className="price">
-												<h6>€ 150.00</h6>
-												<h6 className="l-through">€ 210.00</h6>
-											</div>
-											<div className="prd-bottom">
-
-												<a href="/" className="social-info">
-													<span className="ti-bag"></span>
-													<p className="hover-text">add to bag</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-heart"></span>
-													<p className="hover-text">Wishlist</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-sync"></span>
-													<p className="hover-text">compare</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-move"></span>
-													<p className="hover-text">view more</p>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className="col-lg-3 col-md-6">
-									<div className="single-product">
-										<img className="img-fluid" src={require("../styles/img/product/p8.jpg")} alt="" />
-										<div className="product-details">
-											<h6>KENTAURS New Hammer sole
-									for Sports person</h6>
-											<div className="price">
-												<h6>€ 150.00</h6>
-												<h6 className="l-through">€ 210.00</h6>
-											</div>
-											<div className="prd-bottom">
-
-												<a href="/" className="social-info">
-													<span className="ti-bag"></span>
-													<p className="hover-text">add to bag</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-heart"></span>
-													<p className="hover-text">Wishlist</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-sync"></span>
-													<p className="hover-text">compare</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-move"></span>
-													<p className="hover-text">view more</p>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className="col-lg-3 col-md-6">
-									<div className="single-product">
-										<img className="img-fluid" src={require("../styles/img/product/p3.jpg")} alt="" />
-										<div className="product-details">
-											<h6>KENTAURS New Hammer sole
-									for Sports person</h6>
-											<div className="price">
-												<h6>€ 150.00</h6>
-												<h6 className="l-through">€ 210.00</h6>
-											</div>
-											<div className="prd-bottom">
-
-												<a href="/" className="social-info">
-													<span className="ti-bag"></span>
-													<p className="hover-text">add to bag</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-heart"></span>
-													<p className="hover-text">Wishlist</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-sync"></span>
-													<p className="hover-text">compare</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-move"></span>
-													<p className="hover-text">view more</p>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className="col-lg-3 col-md-6">
-									<div className="single-product">
-										<img className="img-fluid" src={require("../styles/img/product/p5.jpg")} alt="" />
-										<div className="product-details">
-											<h6>KENTAURS New Hammer sole
-									for Sports person</h6>
-											<div className="price">
-												<h6>€ 150.00</h6>
-												<h6 className="l-through">€ 210.00</h6>
-											</div>
-											<div className="prd-bottom">
-
-												<a href="/" className="social-info">
-													<span className="ti-bag"></span>
-													<p className="hover-text">add to bag</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-heart"></span>
-													<p className="hover-text">Wishlist</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-sync"></span>
-													<p className="hover-text">compare</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-move"></span>
-													<p className="hover-text">view more</p>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className="col-lg-3 col-md-6">
-									<div className="single-product">
-										<img className="img-fluid" src={require("../styles/img/product/p1.jpg")} alt="" />
-										<div className="product-details">
-											<h6>KENTAURS New Hammer sole
-									for Sports person</h6>
-											<div className="price">
-												<h6>€ 150.00</h6>
-												<h6 className="l-through">€ 210.00</h6>
-											</div>
-											<div className="prd-bottom">
-
-												<a href="/" className="social-info">
-													<span className="ti-bag"></span>
-													<p className="hover-text">add to bag</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-heart"></span>
-													<p className="hover-text">Wishlist</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-sync"></span>
-													<p className="hover-text">compare</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-move"></span>
-													<p className="hover-text">view more</p>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className="col-lg-3 col-md-6">
-									<div className="single-product">
-										<img className="img-fluid" src={require("../styles/img/product/p4.jpg")} alt="" />
-										<div className="product-details">
-											<h6>KENTAURS New Hammer sole
-									for Sports person</h6>
-											<div className="price">
-												<h6>€ 150.00</h6>
-												<h6 className="l-through">€ 210.00</h6>
-											</div>
-											<div className="prd-bottom">
-
-												<a href="/" className="social-info">
-													<span className="ti-bag"></span>
-													<p className="hover-text">add to bag</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-heart"></span>
-													<p className="hover-text">Wishlist</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-sync"></span>
-													<p className="hover-text">compare</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-move"></span>
-													<p className="hover-text">view more</p>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className="col-lg-3 col-md-6">
-									<div className="single-product">
-										<img className="img-fluid" src={require("../styles/img/product/p1.jpg")} alt="" />
-										<div className="product-details">
-											<h6>KENTAURS New Hammer sole
-									for Sports person</h6>
-											<div className="price">
-												<h6>€ 150.00</h6>
-												<h6 className="l-through">€ 210.00</h6>
-											</div>
-											<div className="prd-bottom">
-
-												<a href="/" className="social-info">
-													<span className="ti-bag"></span>
-													<p className="hover-text">add to bag</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-heart"></span>
-													<p className="hover-text">Wishlist</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-sync"></span>
-													<p className="hover-text">compare</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-move"></span>
-													<p className="hover-text">view more</p>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className="col-lg-3 col-md-6">
-									<div className="single-product">
-										<img className="img-fluid" src={require("../styles/img/product/p8.jpg")} alt="" />
-										<div className="product-details">
-											<h6>KENTAURS New Hammer sole
-									for Sports person</h6>
-											<div className="price">
-												<h6>€ 150.00</h6>
-												<h6 className="l-through">€ 210.00</h6>
-											</div>
-											<div className="prd-bottom">
-
-												<a href="/" className="social-info">
-													<span className="ti-bag"></span>
-													<p className="hover-text">add to bag</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-heart"></span>
-													<p className="hover-text">Wishlist</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-sync"></span>
-													<p className="hover-text">compare</p>
-												</a>
-												<a href="/" className="social-info">
-													<span className="lnr lnr-move"></span>
-													<p className="hover-text">view more</p>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
 				</section>
             </React.Fragment>
-        )
-    }
-}
+				)
+			}
+		}
