@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import { Title } from '../../subs/Title'
+import { Title } from '../Title'
 import CartColumns from './CartColumns'
 import EmptyCart from './EmptyCart'
-import { ProductConsumer } from '../../subs/Context'
+import { ProductConsumer } from '../Context'
 import CartList from './CartList'
 import CartTotal from './CartTotal'
-import { Banner } from '../../subs/Banner'
+import { Banner } from '../Banner'
 
 export default class Cart extends Component {
   render() {

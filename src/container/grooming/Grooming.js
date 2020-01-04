@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Banner} from '../subs/Banner';
-import Product from './Product'
+import Product from '../pages/Product'
 import { ProductConsumer } from '../subs/Context';
 
 export default class Grooming extends Component {

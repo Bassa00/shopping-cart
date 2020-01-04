@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import navLogo from "./logo.svg";
 
 export default class NavBar extends Component {
@@ -73,11 +72,11 @@ export default class NavBar extends Component {
                   <a className="dropdown-item" href="/">SADDLES & SADDLES ACCESSORIES</a>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/">GROOMING EQUIPMENT</a>
+              <li className="nav-item">
+                <a className="nav-link" href="/">GROOMING EQUIPMENT</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/">GIFTS & SOUVENIRS</a>
+              <li className="nav-item">
+                <a className="nav-link" href="/">GIFTS & SOUVENIRS</a>
               </li>
             </ul>
           </div>

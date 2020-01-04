@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import {Banner} from '../subs/Banner'
 
-export default class HProtectors extends Component {
+export default class CompBreeches extends Component {
     render() {
         return (
             <React.Fragment>
-                <Banner pageName='Horse Protectors' linkName='Horse Protectors' />
+                <Banner pageName='Competition Breeches' linkName='Competition Breeches' />
             </React.Fragment>
         )
     }

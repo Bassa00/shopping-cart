@@ -1,8 +1,8 @@
-export const storeProducts = [
+export const storeProductsC = [
 	{
-		id: 1,
+		id: 11,
 		title: "Intrepid Helmet",
-		img: require("./pictures/991915.png"),
+		img: require("./pictures/womensBreeches.jpg"),
 		price: 10,
 		company: "Kentaurs",
 		info:
@@ -12,7 +12,7 @@ export const storeProducts = [
 		total: 0
 	},
 	{
-		id: 2,
+		id: 12,
 		title: "Women's Jacket",
 		img: require("./pictures/978472.png"),
 		price: 16,
@@ -24,7 +24,7 @@ export const storeProducts = [
 		total: 0
 	},
 	{
-		id: 3,
+		id: 13,
 		title: "Body Protector",
 		img: require("./pictures/991460.png"),
 		price: 8,
@@ -36,7 +36,7 @@ export const storeProducts = [
 		total: 0
 	},
 	{
-		id: 4,
+		id: 14,
 		title: "Women's Celine",
 		img: require("./pictures/940000.png"),
 		price: 18,
@@ -48,7 +48,7 @@ export const storeProducts = [
 		total: 0
 	},
 	{
-		id: 5,
+		id: 15,
 		title: "Rider's Glovers",
 		img: require("./pictures/930041.png"),
 		price: 24,
@@ -60,7 +60,7 @@ export const storeProducts = [
 		total: 0
 	},
 	{
-		id: 6,
+		id: 16,
 		title: "Leather Equestrian ",
 		img: require("./pictures/988481.png"),
 		price: 17,
@@ -72,7 +72,7 @@ export const storeProducts = [
 		total: 0
 	},
 	{
-		id: 7,
+		id: 17,
 		title: "Rider's Boots",
 		img: require("./pictures/913237.png"),
 		price: 30,
@@ -84,7 +84,7 @@ export const storeProducts = [
 		total: 0
 	},
 	{
-		id: 8,
+		id: 18,
 		title: "Women's Riding Tights",
 		img: require("./pictures/979840.png"),
 		price: 2,
@@ -97,8 +97,8 @@ export const storeProducts = [
 	}
 ];
 
-export const detailProduct = [{
-	id: 1,
+export const detailProductC = [{
+	id: 11,
 	title: "Intrepid Helmet",
 	img: require("./pictures/991915.png"),
 	price: 10,

@@ -12,7 +12,7 @@ export default class Category extends Component {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="single-deal">
                                             <div className="overlay"></div>
-                                            <img className="img-fluid w-100" src={require("../../pictures/2guys horse.jpg")} alt="" />
+                                            <img className="img-fluid w-100" src={require("../pictures/2guys horse.jpg")} alt="" />
                                             <a href="img/category/c1.jpg" className="img-pop-up" target="_blank">
                                                 <div className="deal-details">
                                                     <h6 className="deal-title">Men's Riding Wear</h6>
@@ -23,7 +23,7 @@ export default class Category extends Component {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="single-deal">
                                             <div className="overlay"></div>
-                                            <img className="img-fluid w-100" src={require("../../pictures/horseback.jpg")} alt="" />
+                                            <img className="img-fluid w-100" src={require("../pictures/horseback.jpg")} alt="" />
                                             <a href="img/category/c2.jpg" className="img-pop-up" target="_blank">
                                                 <div className="deal-details">
                                                     <h6 className="deal-title">Saddle Accessories</h6>
@@ -34,7 +34,7 @@ export default class Category extends Component {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="single-deal">
                                             <div className="overlay"></div>
-                                            <img className="img-fluid w-100" src={require("../../pictures/girlnhorse2.jpg")} alt="" />
+                                            <img className="img-fluid w-100" src={require("../pictures/girlnhorse2.jpg")} alt="" />
                                             <a href="img/category/c3.jpg" className="img-pop-up" target="_blank">
                                                 <div className="deal-details">
                                                     <h6 className="deal-title">Riding Gilets</h6>
@@ -45,7 +45,7 @@ export default class Category extends Component {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="single-deal">
                                             <div className="overlay"></div>
-                                            <img className="img-fluid w-100" src={require("../../pictures/twoGirlsHorse.jpg")} alt="" />
+                                            <img className="img-fluid w-100" src={require("../pictures/twoGirlsHorse.jpg")} alt="" />
                                             <a href="img/category/c5.jpg" className="img-pop-up" target="_blank">
                                                 <div className="deal-details">
                                                     <h6 className="deal-title">Sweat, Fleece, Jackets & Hoodies</h6>
@@ -58,7 +58,7 @@ export default class Category extends Component {
                             <div className="col-lg-4 col-md-6">
                                 <div className="single-deal">
                                     <div className="overlay"></div>
-                                    <img className="img-fluid w-100" src={require("../../pictures/4girls.jpg")} alt="" />
+                                    <img className="img-fluid w-100" src={require("../pictures/4girls.jpg")} alt="" />
                                     <a href="img/category/c5.jpg" className="img-pop-up" target="_blank">
                                         <div className="deal-details">
                                             <h6 className="deal-title">Children's Riding Wear'</h6>

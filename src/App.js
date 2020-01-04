@@ -1,38 +1,25 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import NavBar from './components/subs/Navbar';
+import NavBar from './components/Navbar';
 import ProductList from './components/pages/ProductList';
 import Details from './components/pages/Details';
-import Cart from './components/pages/cart';
+import Cart from './components/cart';
 import Default from './components/pages/Default';
-import Model from './components/subs/Model';
-import Souvenirs from './components/pages/Souvenirs';
-import Grooming from './components/pages/Grooming';
+import Model from './components/Model';
 import Contact from './components/pages/Contact';
-import RKits from './components/pages/RKits';
-import RProtectors from './components/pages/RProtectors';
-import RAccessories from './components/pages/RAccessories';
-import HKits from './components/pages/HKits';
-import HProtectors from './components/pages/HProtectors';
-import HAccessories from './components/pages/HAccessories';
 
-function App() { 
+
+function App() {
   return (
     <React.Fragment>
-      <NavBar /> {/** Navbar keeps out side of Switch to make it show in every page */}
+ {/** Navbar keeps out side of Switch to make it show in every page */}
+      <NavBar />
+
       <Switch>
         <Route exact path='/' component={ProductList} />
         <Route path='/details' component={Details} />
-        <Route path='/pages/RKits' component={RKits} />
-        <Route path='/pages/RProtectors' component={RProtectors} />
-        <Route path='/pages/RAccessories' component={RAccessories} />
-        <Route path='/pages/HKits' component={HKits} />
-        <Route path='/pages/HProtectors' component={HProtectors} />
-        <Route path='/pages/HAccessories' component={HAccessories} />
-        <Route path='/pages/Souvenirs' component={Souvenirs} />
-        <Route path='/pages/Grooming' component={Grooming} />
         <Route path='/pages/Contact' component={Contact} />
-        <Route path='/pages/cart' component={Cart} />  
+        <Route path='/pages/cart' component={Cart} />
         <Route component={Default} />
       </Switch>
       <Model/>

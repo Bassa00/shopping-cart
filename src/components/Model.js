@@ -12,9 +12,9 @@ export default class Model extends Component {
                     {(value) => {
                         const {modelOpen, closeModel} = value;
                         const {img, title, price} = value.modelProduct;
-                        if (!modelOpen) { 
-                            return null 
-                        }else { 
+                        if (!modelOpen) {
+                            return null
+                        }else {
                             return <ModelContainer>
                                     <div className='container'>
                                         <div className='row'>
@@ -33,13 +33,13 @@ export default class Model extends Component {
                                                         Go To Cart
                                                     </ButtonContainer>
                                                 </Link>
-                                            </div> 
+                                            </div>
                                         </div>
                                     </div>
                             </ModelContainer>
                         }
                     }}
-                </ProductConsumer> 
+                </ProductConsumer>
             </div>
         )
     }

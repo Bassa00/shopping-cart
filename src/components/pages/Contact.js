@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Banner } from '../subs/Banner';
+import { Banner } from '../Banner';
 
 import { Form, Col, Button } from 'react-bootstrap';
 
@@ -7,7 +7,7 @@ export default class Contact extends Component {
     render() {
         return (
             <React.Fragment>
-               
+
                 <Banner pageName='Contact' linkName='Contact' />
 
                 <section className="contact_area section_gap_bottom pt-5">

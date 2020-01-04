@@ -4,7 +4,7 @@ export default class EDeals extends Component {
     render() {
         return (
             <React.Fragment>
-                <section className="exclusive-deal-area">
+                <section className="exclusive-deal-area mx-5 px-5 py-5">
 					<div className="container-fluid">
 						<div className="row justify-content-center align-items-center">
 							<div className="col-lg-6 no-padding exclusive-left">
@@ -13,26 +13,6 @@ export default class EDeals extends Component {
 										<h1>Exclusive Hot Deal Ends Soon!</h1>
 										<p>Who are in extremely love with eco friendly system.</p>
 									</div>
-									<div className="col-lg-12">
-										<div className="row clock-wrap">
-											<div className="col clockinner1 clockinner">
-												<h1 className="days">150</h1>
-												<span className="smalltext">Days</span>
-											</div>
-											<div className="col clockinner clockinner1">
-												<h1 className="hours">23</h1>
-												<span className="smalltext">Hours</span>
-											</div>
-											<div className="col clockinner clockinner1">
-												<h1 className="minutes">47</h1>
-												<span className="smalltext">Mins</span>
-											</div>
-											<div className="col clockinner clockinner1">
-												<h1 className="seconds">59</h1>
-												<span className="smalltext">Secs</span>
-											</div>
-										</div>
-									</div>
 								</div>
 								<a href="/" className="primary-btn">Shop Now</a>
 							</div>
@@ -40,7 +20,7 @@ export default class EDeals extends Component {
 								<div className="active-exclusive-product-slider">
 									{/**single exclusive carousel */}
 									<div className="single-exclusive-slider">
-										<img className="img-fluid" src={require("../styles/img/product/e-p1.png")} alt="" />
+										<img className="img-fluid" src={require("../pictures/girlNHorse.jpg")} alt="" />
 										<div className="product-details">
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -56,7 +36,7 @@ export default class EDeals extends Component {
 									</div>
 
 									<div className="single-exclusive-slider">
-										<img className="img-fluid" src="../styles/img/product/e-p1.png" alt="" />
+										<img className="img-fluid" src={require("../pictures/girlHelmet.jpg")} alt="" />
 										<div className="product-details">
 											<div className="price">
 												<h6>€ 150.00</h6>

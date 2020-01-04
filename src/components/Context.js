@@ -1,29 +1,36 @@
 import React, { Component } from 'react'
-import { storeProducts, detailProduct } from '../../data';
-export const ProductContext = React.createContext()
+import { storeProducts, detailProduct } from '../data';
+import { storeProductsC, detailProductC } from '../data copy';
 
-//provider 
+export const ProductContext = React.createContext()
+//provider
 export class ProductProvider extends Component {
 	state = {
 		products: [],
-		detailProduct: detailProduct,
-		cart : [], 
+		detailProduct: [...detailProduct, ...detailProductC],
+		storeProducts: [...storeProducts, ...storeProductsC],
+		cart : [],
 		modelOpen: false,
-		modelProduct: detailProduct,
+		modelProduct: [...detailProduct, ...detailProductC],
 		cartSubTotal: 0,
 		cartTax: 0,
 		cartTotal: 0,
 	}
+
+	result = Object.keys(this.state.storeProducts).map((item)=>{
+		return this.state.storeProducts[item]
+	  });
 
 	componentDidMount() { //2
 		this.setProducts()
 	}
 	setProducts = () => {
 		let tempProducts = [] //1
-		storeProducts.forEach(item => {
+		this.result.forEach(item => {
 			const singleItem = { ...item }
 			tempProducts = [...tempProducts, singleItem] //1
 		})
+		;
 		this.setState(() => {
 			return { products: tempProducts }
 		})
@@ -71,7 +78,7 @@ export class ProductProvider extends Component {
 			return {modelOpen: false}
 		})
 	}
-	
+
 	increment = (id) => {
 		let tempCart = [...this.state.cart];
 		const selectedProduct = tempCart.find(item => item.id === id);
@@ -96,7 +103,7 @@ export class ProductProvider extends Component {
 		const index = tempCart.indexOf(selectedProduct);
 		const product = tempCart[index];
 		product.count = product.count - 1;
-		
+
 		if (product.count === 0) {
 			this.removeItem(id)
 		}
@@ -143,7 +150,7 @@ export class ProductProvider extends Component {
 				this.setProducts();
 				this.addTotal();
 			}
-		);	
+		);
 	}
 
 	addTotal = () => {
@@ -157,19 +164,19 @@ export class ProductProvider extends Component {
 				cartSubTotal: subTotal,
 				cartTax: tax,
 				cartTotal: total,
-			}	
+			}
 		})
 	}
 
 	/** REFERENCE ISSUE: MANIPULATING REFERENCES INSTEAD DATA VALUE
-	  
+
 	 tester = () => {
 	  console.log('State products:', this.state.products[0].inCart)
 	  console.log('Data products: ', storeProducts[0].inCart)
-  
+
 	  const tempProducts = [...this.state.products]
 	  tempProducts[0].inCart = true
-  
+
 	  this.setState (() => {
 		products: tempProducts
 	  }, () => {
