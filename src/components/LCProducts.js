@@ -19,7 +19,7 @@ export default class LCProducts extends Component {
 								{/**single product */}
 								<div className="card-deck">
 									<div className="card">
-										<img src={require("../pictures/womensBreeches.jpg")} className="card-img-top" alt="Women's Breeches" />
+										<img src={require("../images/womensBreeches.jpg")} className="card-img-top" alt="Women's Breeches" />
 										<div className="card-body">
 											<h5 className="card-title text-center">Women's Breeches</h5>
 										</div>
@@ -28,7 +28,7 @@ export default class LCProducts extends Component {
 										</div>
 									</div>
 									<div className="card">
-										<img src={require("../pictures/ridingFootwear.jpg")} className="card-img-top" alt="Riding Footwear" />
+										<img src={require("../images/ridingFootwear.jpg")} className="card-img-top" alt="Riding Footwear" />
 										<div className="card-body">
 											<h5 className="card-title text-center">Riding Footwear</h5>
 										</div>
@@ -37,7 +37,7 @@ export default class LCProducts extends Component {
 										</div>
 									</div>
 									<div className="card">
-										<img src={require("../pictures/ridingGloves.jpg")} className="card-img-top" alt="Riding Gloves" />
+										<img src={require("../images/ridingGloves.jpg")} className="card-img-top" alt="Riding Gloves" />
 										<div className="card-body">
 											<h5 className="card-title text-center">Riding Gloves</h5>
 										</div>
@@ -50,7 +50,7 @@ export default class LCProducts extends Component {
 							</div>
 							<div className="row my-5">
 								<div className="card bg-dark text-white border border-light">
-									<img src={require("../pictures/banner/oneHorseSnow.jpg")} className="card-img" alt="..." style={{height:'25rem'}} />
+									<img src={require("../images/banner/oneHorseSnow.jpg")} className="card-img" alt="..." style={{height:'25rem'}} />
 										<div className="card-img-overlay align-content-center">
 											<p className="display-4 display-flex text-white bg-secondary text-center" style={{opacity: '0.8'}}>Autumn / Winter Collection</p>
 										</div>

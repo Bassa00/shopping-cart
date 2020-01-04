@@ -19,7 +19,7 @@ import '../src/styles/css/main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {ProductProvider} from './components/Context';
+import {ProductProvider} from './components/context';
 
 ReactDOM.render(
   <ProductProvider>

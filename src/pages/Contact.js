@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Banner } from '../Banner';
+import { Banner } from '../components/Banner';
 
 import { Form, Col, Button } from 'react-bootstrap';
 

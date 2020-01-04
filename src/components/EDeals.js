@@ -20,7 +20,7 @@ export default class EDeals extends Component {
 								<div className="active-exclusive-product-slider">
 									{/**single exclusive carousel */}
 									<div className="single-exclusive-slider">
-										<img className="img-fluid" src={require("../pictures/girlNHorse.jpg")} alt="" />
+										<img className="img-fluid" src={require("../images/girlNHorse.jpg")} alt="" />
 										<div className="product-details">
 											<div className="price">
 												<h6>€ 150.00</h6>
@@ -36,7 +36,7 @@ export default class EDeals extends Component {
 									</div>
 
 									<div className="single-exclusive-slider">
-										<img className="img-fluid" src={require("../pictures/girlHelmet.jpg")} alt="" />
+										<img className="img-fluid" src={require("../images/girlHelmet.jpg")} alt="" />
 										<div className="product-details">
 											<div className="price">
 												<h6>€ 150.00</h6>

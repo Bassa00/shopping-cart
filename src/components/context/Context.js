@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { storeProducts, detailProduct } from '../data';
-import { storeProductsC, detailProductC } from '../data copy';
+import { storeProducts, detailProduct } from '../../data';
+import { storeProductsC, detailProductC } from '../../data copy';
 
 export const ProductContext = React.createContext()
 //provider

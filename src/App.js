@@ -1,12 +1,12 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import NavBar from './components/Navbar';
-import ProductList from './components/pages/ProductList';
-import Details from './components/pages/Details';
+import ProductList from './pages/ProductList';
+import Details from './pages/Details';
 import Cart from './components/cart';
-import Default from './components/pages/Default';
+import Default from './pages/Default';
 import Model from './components/Model';
-import Contact from './components/pages/Contact';
+import Contact from './pages/Contact';
 
 
 function App() {

@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import Product from './Product';
-import { ProductConsumer } from '../Context';
-import Slider from '../Slider';
-import Features from '../Features';
-import Category from '../Category';
-import LCProducts from '../LCProducts';
-import EDeals from '../EDeals';
-import Brands from '../Brands';
-import DofWeek from '../DofWeek';
-import Footer from '../Footer';
+import { ProductConsumer } from '../components/context';
+import Slider from '../components/Slider';
+import Features from '../components/Features';
+import Category from '../components/Category';
+import LCProducts from '../components/LCProducts';
+import EDeals from '../components/EDeals';
+import Brands from '../components/Brands';
+import DofWeek from '../components/DofWeek';
+import Footer from '../components/Footer';
 
 export default class ProductList extends Component {
 	// state = {

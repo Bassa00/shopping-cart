@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import {ProductWrapper} from '../../styles/ProductWrapper';
+import {ProductWrapper} from '../styles/ProductWrapper';
 import { Link } from "react-router-dom";
-import { ProductConsumer } from "../Context";
+import { ProductConsumer } from "../components/context";
 import PropTypes from 'prop-types'
 
 export default class Product extends Component {
