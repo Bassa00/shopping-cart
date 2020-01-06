@@ -7,6 +7,7 @@ import Cart from './components/cart';
 import Default from './pages/Default';
 import Model from './components/Model';
 import Contact from './pages/Contact';
+import CompJackets from './pages/rider/CompJackets'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/details' component={Details} />
         <Route path='/pages/Contact' component={Contact} />
         <Route path='/pages/cart' component={Cart} />
+        <Route path='/pages/rider/CompJackets' component={CompJackets} />
         <Route component={Default} />
       </Switch>
       <Model/>

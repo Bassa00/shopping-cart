@@ -1,11 +1,10 @@
 import React from 'react'
 import {Banner} from '../../components/Banner'
 
-export default function CompBreeches() {
+export default function Spurs() {
     return (
         <React.Fragment>
-            <Banner pageName='Competition Breeches' linkName='Competition Breeches' />
+            <Banner pageName='Spurs' linkName='Spurs' />
         </React.Fragment>
     )
 }
-
