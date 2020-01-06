@@ -30,24 +30,24 @@ export default class NavBar extends Component {
                                 <a className="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         RIDER</a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style={{fontSize:'12px'}}>
-                                    <a className="dropdown-item" href="../pages/rider/CompJackets">COMPETITION JACKETS</a>
-                                    <a className="dropdown-item" href="/">COMPETITION BREECHES</a>
-                                    <a className="dropdown-item" href="/">COMPETITION SHIRTS</a>
-                                    <a className="dropdown-item" href="/">COMPETITION ACCESSORIES</a>
-                                    <a className="dropdown-item" href="/">RIDING BREECHES</a>
-                                    <a className="dropdown-item" href="/">RIDING SHIRTS</a>
-                                    <a className="dropdown-item" href="/">RIDING JACKETS AND WAISTCOATS</a>
-                                    <a className="dropdown-item" href="/">BODY PROTECTORS</a>
-                                    <a className="dropdown-item" href="/">HELMETS</a>
-                                    <a className="dropdown-item" href="/">GLOVES</a>
-                                    <a className="dropdown-item" href="/">SOCKS</a>
-                                    <a className="dropdown-item" href="/">BOOTS</a>
-                                    <a className="dropdown-item" href="/">CHAPS</a>
-                                    <a className="dropdown-item" href="/">SPURS</a>
-                                    <a className="dropdown-item" href="/">SPURS STRAPS</a>
-                                    <a className="dropdown-item" href="/">WHIPS</a>
-                                    <a className="dropdown-item" href="/">HATS</a>
-                                    <a className="dropdown-item" href="/">RAIN PROTECTION & SAFETY</a>
+                                    <a className="dropdown-item" href="/pages/rider/CompJackets">COMPETITION JACKETS</a>
+                                    <a className="dropdown-item" href="/pages/rider/CompBreeches">COMPETITION BREECHES</a>
+                                    <a className="dropdown-item" href="/pages/rider/CompShirts">COMPETITION SHIRTS</a>
+                                    <a className="dropdown-item" href="/pages/rider/CompAccessories">COMPETITION ACCESSORIES</a>
+                                    <a className="dropdown-item" href="/pages/rider/Breeches">RIDING BREECHES</a>
+                                    <a className="dropdown-item" href="/pages/rider/Shirts">RIDING SHIRTS</a>
+                                    <a className="dropdown-item" href="/pages/rider/JacketsWaistcoats">RIDING JACKETS AND WAISTCOATS</a>
+                                    <a className="dropdown-item" href="/pages/rider/Protectors">BODY PROTECTORS</a>
+                                    <a className="dropdown-item" href="/pages/rider/Helmets">HELMETS</a>
+                                    <a className="dropdown-item" href="/pages/rider/Gloves">GLOVES</a>
+                                    <a className="dropdown-item" href="/pages/rider/Socks">SOCKS</a>
+                                    <a className="dropdown-item" href="/pages/rider/Boots">BOOTS</a>
+                                    <a className="dropdown-item" href="/pages/rider/Chaps">CHAPS</a>
+                                    <a className="dropdown-item" href="/pages/rider/Spurs">SPURS</a>
+                                    <a className="dropdown-item" href="/pages/rider/Straps">SPURS STRAPS</a>
+                                    <a className="dropdown-item" href="/pages/rider/Whips">WHIPS</a>
+                                    <a className="dropdown-item" href="/pages/rider/Hats">HATS</a>
+                                    <a className="dropdown-item" href="/pages/rider/Safety">RAIN PROTECTION & SAFETY</a>
                                 </div>
                             </li>
 
