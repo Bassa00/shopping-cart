@@ -1,17 +1,19 @@
 import React, { Component } from 'react'
-import { storeProducts, detailProduct } from '../../data';
-import { storeProductsC, detailProductC } from '../../data copy';
+import { storeGrooming, detailGrooming } from '../../database/_Grooming';
+import { storeHorse, detailHorse } from '../../database/_Horse';
+import { storeRider, detailRider } from '../../database/_Rider';
+import { storeSouvenir, detailSouvenir } from '../../database/_Souvenir';
 
 export const ProductContext = React.createContext()
 //provider
 export class ProductProvider extends Component {
 	state = {
 		products: [],
-		detailProduct: [...detailProduct, ...detailProductC],
-		storeProducts: [...storeProducts, ...storeProductsC],
+		detailProduct: [...detailGrooming, ...detailHorse, ...detailRider, ...detailSouvenir],
+		storeProducts: [...storeGrooming, ...storeHorse, ...storeRider, ...storeSouvenir],
 		cart : [],
 		modelOpen: false,
-		modelProduct: [...detailProduct, ...detailProductC],
+		modelProduct: [...detailGrooming, ...detailHorse, ...detailRider, ...detailSouvenir],
 		cartSubTotal: 0,
 		cartTax: 0,
 		cartTotal: 0,

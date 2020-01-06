@@ -1,8 +1,8 @@
-export const storeProductsC = [
+export const storeRider = [
 	{
 		id: 11,
 		title: "Intrepid Helmet",
-		img: require("./pictures/womensBreeches.jpg"),
+		img: require("../images/womensBreeches.jpg"),
 		price: 10,
 		company: "Kentaurs",
 		info:
@@ -14,7 +14,7 @@ export const storeProductsC = [
 	{
 		id: 12,
 		title: "Women's Jacket",
-		img: require("./pictures/978472.png"),
+		img: require("../images/978472.png"),
 		price: 16,
 		company: "Kentaurs",
 		info:
@@ -26,7 +26,7 @@ export const storeProductsC = [
 	{
 		id: 13,
 		title: "Body Protector",
-		img: require("./pictures/991460.png"),
+		img: require("../images/991460.png"),
 		price: 8,
 		company: "Kentaurs",
 		info:
@@ -38,7 +38,7 @@ export const storeProductsC = [
 	{
 		id: 14,
 		title: "Women's Celine",
-		img: require("./pictures/940000.png"),
+		img: require("../images/940000.png"),
 		price: 18,
 		company: "Kentaurs",
 		info:
@@ -50,7 +50,7 @@ export const storeProductsC = [
 	{
 		id: 15,
 		title: "Rider's Glovers",
-		img: require("./pictures/930041.png"),
+		img: require("../images/930041.png"),
 		price: 24,
 		company: "Kentaurs",
 		info:
@@ -62,7 +62,7 @@ export const storeProductsC = [
 	{
 		id: 16,
 		title: "Leather Equestrian ",
-		img: require("./pictures/988481.png"),
+		img: require("../images/988481.png"),
 		price: 17,
 		company: "Kentaurs",
 		info:
@@ -74,7 +74,7 @@ export const storeProductsC = [
 	{
 		id: 17,
 		title: "Rider's Boots",
-		img: require("./pictures/913237.png"),
+		img: require("../images/913237.png"),
 		price: 30,
 		company: "Kentaurs",
 		info:
@@ -86,7 +86,7 @@ export const storeProductsC = [
 	{
 		id: 18,
 		title: "Women's Riding Tights",
-		img: require("./pictures/979840.png"),
+		img: require("../images/979840.png"),
 		price: 2,
 		company: "Kentaurs",
 		info:
@@ -97,10 +97,10 @@ export const storeProductsC = [
 	}
 ];
 
-export const detailProductC = [{
+export const detailRider = [{
 	id: 11,
 	title: "Intrepid Helmet",
-	img: require("./pictures/991915.png"),
+	img: require("../images/991915.png"),
 	price: 10,
 	company: "Kentaurs",
 	info:
