@@ -4,7 +4,7 @@ import {Banner} from '../../components/Banner'
 export default function Straps() {
     return (
         <React.Fragment>
-            <Banner pageName='Spurs Straps' linkName='Spurs Straps' />
+            <Banner parentName='Rider' pageName='Spurs Straps' linkName='Spurs Straps' />
         </React.Fragment>
     )
 }

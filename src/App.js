@@ -7,6 +7,8 @@ import Cart from './components/cart';
 import Default from './pages/Default';
 import Model from './components/Model';
 import Contact from './pages/Contact';
+
+//Rider
 import Boots from './pages/rider/Boots'
 import Breeches from './pages/rider/Breeches'
 import Chaps from './pages/rider/Chaps'
@@ -26,6 +28,24 @@ import Spurs from './pages/rider/Spurs'
 import Straps from './pages/rider/Straps'
 import Whips from './pages/rider/Whips'
 
+//Horse
+import BandagePads from './pages/horse/BandagePads'
+import Bandages from './pages/horse/Bandages'
+import BitsAccessories from './pages/horse/BitsAccessories'
+import Bridles from './pages/horse/Bridles'
+import FlyProtection from './pages/horse/FlyProtection'
+import Girths from './pages/horse/Girths'
+import Headcollars from './pages/horse/Headcollars'
+import LeadRopes from './pages/horse/LeadRopes'
+import OverreachBoots from './pages/horse/OverreachBoots'
+import Reins from './pages/horse/Reins'
+import RugsSheets from './pages/horse/RugsSheets'
+import SaddlePadsBP from './pages/horse/SaddlePadsBP'
+import SaddlesAccessories from './pages/horse/SaddlesAccessories'
+import Stirrups from './pages/horse/Stirrups'
+import StirrupsLeather from './pages/horse/StirrupsLeather'
+import TendonFetlockBoots from './pages/horse/TendonFetlockBoots'
+
 function App() {
   return (
     <React.Fragment>
@@ -37,6 +57,8 @@ function App() {
         <Route path='/details' component={Details} />
         <Route path='/pages/Contact' component={Contact} />
         <Route path='/pages/cart' component={Cart} />
+
+{/* Rider */}
         <Route path='/pages/rider/Boots' component={Boots} />
         <Route path='/pages/rider/Breeches' component={Breeches} />
         <Route path='/pages/rider/Chaps' component={Chaps} />
@@ -55,6 +77,25 @@ function App() {
         <Route path='/pages/rider/Spurs' component={Spurs} />
         <Route path='/pages/rider/Straps' component={Straps} />
         <Route path='/pages/rider/Whips' component={Whips} />
+
+{/* Horse */}
+        <Route path='/pages/horse/BandagePads' component={BandagePads} />
+        <Route path='/pages/horse/Bandages' component={Bandages} />
+        <Route path='/pages/horse/BitsAccessories' component={BitsAccessories} />
+        <Route path='/pages/horse/Bridles' component={Bridles} />
+        <Route path='/pages/horse/FlyProtection' component={FlyProtection} />
+        <Route path='/pages/horse/Girths' component={Girths} />
+        <Route path='/pages/horse/Headcollars' component={Headcollars} />
+        <Route path='/pages/horse/LeadRopes' component={LeadRopes} />
+        <Route path='/pages/horse/OverreachBoots' component={OverreachBoots} />
+        <Route path='/pages/horse/Reins' component={Reins} />
+        <Route path='/pages/horse/RugsSheets' component={RugsSheets} />
+        <Route path='/pages/horse/SaddlePadsBP' component={SaddlePadsBP} />
+        <Route path='/pages/horse/SaddlesAccessories' component={SaddlesAccessories} />
+        <Route path='/pages/horse/Stirrups' component={Stirrups} />
+        <Route path='/pages/horse/StirrupsLeather' component={StirrupsLeather} />
+        <Route path='/pages/horse/TendonFetlockBoots' component={TendonFetlockBoots} />
+
         <Route component={Default} />
       </Switch>
       <Model/>

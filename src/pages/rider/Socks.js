@@ -4,7 +4,7 @@ import {Banner} from '../../components/Banner'
 export default function Socks() {
     return (
         <React.Fragment>
-            <Banner pageName='Socks' linkName='Socks' />
+            <Banner parentName='Rider' pageName='Socks' linkName='Socks' />
         </React.Fragment>
     )
 }

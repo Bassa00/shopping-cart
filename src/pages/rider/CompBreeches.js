@@ -4,7 +4,7 @@ import {Banner} from '../../components/Banner'
 export default function CompBreeches() {
     return (
         <React.Fragment>
-            <Banner pageName='Competition Breeches' linkName='Competition Breeches' />
+            <Banner parentName='Rider' pageName='Competition Breeches' linkName='Competition Breeches' />
         </React.Fragment>
     )
 }

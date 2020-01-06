@@ -55,22 +55,22 @@ export default class NavBar extends Component {
                                 <a className="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         HORSE</a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style={{fontSize:'12px'}}>
-                                    <a className="dropdown-item" href="/">BITS & BIT ACCESSORIES</a>
-                                    <a className="dropdown-item" href="/">HEADCOLLARS & HEADCOLLAR ACCESSORIES</a>
-                                    <a className="dropdown-item" href="/">LEAD ROPES</a>
-                                    <a className="dropdown-item" href="/">TENDON AND FETLOCK BOOTS</a>
-                                    <a className="dropdown-item" href="/">BANDAGES</a>
-                                    <a className="dropdown-item" href="/">BANDAGES PADS</a>
-                                    <a className="dropdown-item" href="/">OVERREACH BOOTS</a>
-                                    <a className="dropdown-item" href="/">RUGS AND SHEETS</a>
-                                    <a className="dropdown-item" href="/">FLY PROTECTION</a>
-                                    <a className="dropdown-item" href="/">BRIDLES & BRIDLE ACCESSORIES</a>
-                                    <a className="dropdown-item" href="/">REINS</a>
-                                    <a className="dropdown-item" href="/">STIRRUPS</a>
-                                    <a className="dropdown-item" href="/">STIRRUPS LEATHER</a>
-                                    <a className="dropdown-item" href="/">GIRTHS</a>
-                                    <a className="dropdown-item" href="/">SADDLE PADS AND BACK PROTECTION</a>
-                                    <a className="dropdown-item" href="/">SADDLES & SADDLES ACCESSORIES</a>
+                                    <a className="dropdown-item" href="/pages/horse/BitsAccessories">BITS & BIT ACCESSORIES</a>
+                                    <a className="dropdown-item" href="/pages/horse/Headcollars">HEADCOLLAR ACCESSORIES</a>
+                                    <a className="dropdown-item" href="/pages/horse/LeadRopes">LEAD ROPES</a>
+                                    <a className="dropdown-item" href="/pages/horse/TendonFetlockBoots">TENDON AND FETLOCK BOOTS</a>
+                                    <a className="dropdown-item" href="/pages/horse/Bandages">BANDAGES</a>
+                                    <a className="dropdown-item" href="/pages/horse/BandagePads">BANDAGES PADS</a>
+                                    <a className="dropdown-item" href="/pages/horse/OverreachBoots">OVERREACH BOOTS</a>
+                                    <a className="dropdown-item" href="/pages/horse/RugsSheets">RUGS AND SHEETS</a>
+                                    <a className="dropdown-item" href="/pages/horse/FlyProtection">FLY PROTECTION</a>
+                                    <a className="dropdown-item" href="/pages/horse/Bridles">BRIDLES & BRIDLE ACCESSORIES</a>
+                                    <a className="dropdown-item" href="/pages/horse/Reins">REINS</a>
+                                    <a className="dropdown-item" href="/pages/horse/Stirrups">STIRRUPS</a>
+                                    <a className="dropdown-item" href="/pages/horse/StirrupsLeather">STIRRUPS LEATHER</a>
+                                    <a className="dropdown-item" href="/pages/horse/Girths">GIRTHS</a>
+                                    <a className="dropdown-item" href="/pages/horse/SaddlePadsBP">SADDLE PADS AND BACK PROTECTION</a>
+                                    <a className="dropdown-item" href="/pages/horse/SaddlesAccessories">SADDLES & SADDLES ACCESSORIES</a>
                                 </div>
                             </li>
                             <li className="nav-item">

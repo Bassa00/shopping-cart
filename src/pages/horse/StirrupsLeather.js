@@ -1,10 +1,10 @@
 import React from 'react'
 import {Banner} from '../../components/Banner'
 
-export default function CompJackets() {
+export default function StirrupsLeather() {
     return (
         <React.Fragment>
-            <Banner parentName='Rider' pageName='Competition Jackets' linkName='Competition Jackets' />
+            <Banner parentName='Horse' pageName='Stirrups Leather' linkName='Stirrups Leather' />
         </React.Fragment>
     )
 }

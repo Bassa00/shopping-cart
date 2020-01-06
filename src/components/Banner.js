@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Banner = ({ pageName, linkName }) => {
+export const Banner = ({ parentName, pageName, linkName }) => {
     return (
         <React.Fragment>
             <section className="banner-area organic-breadcrumb">
@@ -9,7 +9,7 @@ export const Banner = ({ pageName, linkName }) => {
                         <div className="col-first">
                             <h1>{pageName}</h1>
                             <nav className="d-flex align-items-center">
-                                <a href="/">Home<span className="lnr lnr-arrow-right"></span></a>
+                                <a href="/">{parentName}<span className="lnr lnr-arrow-right"></span></a>
                                 <p>{linkName}</p>
                             </nav>
                         </div>

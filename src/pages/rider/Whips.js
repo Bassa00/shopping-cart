@@ -4,7 +4,7 @@ import {Banner} from '../../components/Banner'
 export default function Whips() {
     return (
         <React.Fragment>
-            <Banner pageName='Whips' linkName='Whips' />
+            <Banner parentName='Rider' pageName='Whips' linkName='Whips' />
         </React.Fragment>
     )
 }
