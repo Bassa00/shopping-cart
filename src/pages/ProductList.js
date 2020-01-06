@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Product from './Product';
 import { ProductConsumer } from '../components/context';
+
 import Slider from '../components/Slider';
 import Features from '../components/Features';
 import Category from '../components/Category';
