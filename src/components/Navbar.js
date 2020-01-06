@@ -27,8 +27,7 @@ export default class NavBar extends Component {
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        RIDER</a>
+                                <a className="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">RIDER</a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style={{fontSize:'12px'}}>
                                     <a className="dropdown-item" href="/pages/rider/CompJackets">COMPETITION JACKETS</a>
                                     <a className="dropdown-item" href="/pages/rider/CompBreeches">COMPETITION BREECHES</a>
@@ -52,8 +51,7 @@ export default class NavBar extends Component {
                             </li>
 
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        HORSE</a>
+                                <a className="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HORSE</a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style={{fontSize:'12px'}}>
                                     <a className="dropdown-item" href="/pages/horse/BitsAccessories">BITS & BIT ACCESSORIES</a>
                                     <a className="dropdown-item" href="/pages/horse/Headcollars">HEADCOLLAR ACCESSORIES</a>
@@ -74,10 +72,10 @@ export default class NavBar extends Component {
                                 </div>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">GROOMING EQUIPMENT</a>
+                                <a className="nav-link" href="/pages/grooming/Grooming">GROOMING EQUIPMENT</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">GIFTS & SOUVENIRS</a>
+                                <a className="nav-link" href="/pages/souvenirs/Souvenirs">GIFTS & SOUVENIRS</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="/pages/cart">

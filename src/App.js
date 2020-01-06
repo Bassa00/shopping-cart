@@ -46,6 +46,12 @@ import Stirrups from './pages/horse/Stirrups'
 import StirrupsLeather from './pages/horse/StirrupsLeather'
 import TendonFetlockBoots from './pages/horse/TendonFetlockBoots'
 
+//Grooming
+import Grooming from './pages/grooming/Grooming'
+
+//Souvenirs
+import Souvenirs from './pages/souvenirs/Souvenirs'
+
 function App() {
   return (
     <React.Fragment>
@@ -95,6 +101,12 @@ function App() {
         <Route path='/pages/horse/Stirrups' component={Stirrups} />
         <Route path='/pages/horse/StirrupsLeather' component={StirrupsLeather} />
         <Route path='/pages/horse/TendonFetlockBoots' component={TendonFetlockBoots} />
+
+{/* Grooming */}
+      <Route path='/pages/grooming/Grooming' component={Grooming} />
+
+{/* Souvenirs */}
+        <Route path='/pages/souvenirs/Souvenirs' component={Souvenirs} />
 
         <Route component={Default} />
       </Switch>
