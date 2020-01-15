@@ -6,7 +6,7 @@ import { ProductConsumer } from '../../components/context';
 export default function Souvenirs() {
     return (
         <React.Fragment>
-            <Banner parentName='Souvenirs' pageName='Souvenirs' linkName='Souvenirs' />
+            <Banner parentName='Home' pageName='Souvenirs' linkName='Souvenirs' />
             <section className="category-area">
 					<div className='my-0'>
 						<div className='container'>

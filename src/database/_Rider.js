@@ -2,7 +2,7 @@ export const storeRider = [
 	{
 		id: 11,
 		title: "Intrepid Helmet",
-		img: require("../images/womensBreeches.jpg"),
+		img: require("../images/991915.png"),
 		price: 10,
 		company: "Kentaurs",
 		info:
